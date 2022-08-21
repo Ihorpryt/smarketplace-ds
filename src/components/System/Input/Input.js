@@ -1,7 +1,7 @@
 import React from "react";
 import {SInput} from "./styles";
 
-const Input = () => {
+const Input = ({label}) => {
     return (
         <SInput>
 
@@ -10,7 +10,7 @@ const Input = () => {
                 name="bottom-text"
                 placeholder="&nbsp;"
             />
-            <label htmlFor="bottom-text">Text on bottom</label>
+            <label htmlFor="bottom-text">{label}</label>
 
         </SInput>
     );

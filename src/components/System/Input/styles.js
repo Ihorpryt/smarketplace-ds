@@ -17,7 +17,7 @@ export const SInput = styled.div`
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    transition: 0.2s ease all;
+    transition: 0.25s ease all;
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
     
     
@@ -52,9 +52,9 @@ export const SInput = styled.div`
     pointer-events: none;
     left: 14px;
     top: 16px;
-    transition: 0.2s ease all;
-    -moz-transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all;
+    transition: 0.25s ease all;
+    -moz-transition: 0.25s ease all;
+    -webkit-transition: 0.25s ease all;
   }
   
 `;

@@ -51,4 +51,5 @@ export const SRow = styled.div`
       align-items: stretch;
       justify-content: flex-start;
       margin-top: 24px;
+      margin-bottom: 24px;
 `;

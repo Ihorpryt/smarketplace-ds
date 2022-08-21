@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="" />
+    <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/memesData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Generator/Meme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Generator/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Generator/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Input/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/styles.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,10 +80,25 @@
       <workItem from="1660854172849" duration="7722000" />
       <workItem from="1660943229446" duration="5196000" />
       <workItem from="1661002373586" duration="9175000" />
+      <workItem from="1661080461207" duration="2578000" />
+      <workItem from="1661100882041" duration="1485000" />
+      <workItem from="1661109664866" duration="120000" />
+      <workItem from="1661113444468" duration="2334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
