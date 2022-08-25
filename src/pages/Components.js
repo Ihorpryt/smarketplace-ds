@@ -1,7 +1,6 @@
 import React from "react";
 import NavCard from "../components/System/NavCard";
 import {SHeader, SGrid} from "../components/Layout/styles";
-import styleguideBg from "../assets/img/styleguideBg.jpg";
 import inputBg from "../assets/img/inputBg.jpg";
 import buttonBg from "../assets/img/buttonBg.jpg"
 
