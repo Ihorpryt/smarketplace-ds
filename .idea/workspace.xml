@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/System/Color/ColorBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Color/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,9 @@
       <workItem from="1661289824692" duration="5178000" />
       <workItem from="1661343357799" duration="8943000" />
       <workItem from="1661386931583" duration="532000" />
-      <workItem from="1661415928539" duration="4100000" />
+      <workItem from="1661415928539" duration="4205000" />
+      <workItem from="1661429581389" duration="108000" />
+      <workItem from="1661467529049" duration="266000" />
     </task>
     <servers />
   </component>
