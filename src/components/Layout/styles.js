@@ -19,6 +19,9 @@ export const SMain = styled.main`
 `;
 
 export const SHeader = styled.div`
+  
+      margin-bottom: 24px;
+  
       h5 {
         color: ${({ theme }) => theme.primary};
         font-style: normal;
@@ -52,4 +55,27 @@ export const SRow = styled.div`
       justify-content: flex-start;
       margin-top: 24px;
       margin-bottom: 24px;
+      flex-flow: wrap;
+`;
+export const SComponentCage = styled.div`
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      margin-bottom: 24px;
+      background: ${({ theme }) => theme.bg};
+      padding: 48px 48px;
+      border-radius: 10px;
+      border: 1px solid ${({theme}) => theme.bg3};
+      div {
+        width: 100%;
+        max-width: 700px;
+      }
+  
+`;
+export const SGrid = styled.div`
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 24px;
+      grid-row-gap: 24px;
 `;

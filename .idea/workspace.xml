@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/memesData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Generator/Meme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Generator/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Generator/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Input/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Styleguide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Styleguide.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,11 @@
       <workItem from="1661080461207" duration="2578000" />
       <workItem from="1661100882041" duration="1485000" />
       <workItem from="1661109664866" duration="120000" />
-      <workItem from="1661113444468" duration="2334000" />
+      <workItem from="1661113444468" duration="2544000" />
+      <workItem from="1661189781417" duration="931000" />
+      <workItem from="1661205174577" duration="1246000" />
+      <workItem from="1661289824692" duration="5178000" />
+      <workItem from="1661343357799" duration="8943000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
 import React from "react";
-import {SHeader, SRow} from "../components/Layout/styles";
+import {SGrid, SHeader} from "../components/Layout/styles";
 import NavCard from "../components/System/NavCard";
 
 const Styleguide = () => {
@@ -36,14 +36,14 @@ const Styleguide = () => {
                 <p>Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences.</p>
             </SHeader>
 
-            <SRow>
+            <SGrid>
                 {cardArray.map((card) => (
                     <NavCard
                         key={card.id}
                         {...card}
                     />
                 ))}
-            </SRow>
+            </SGrid>
 
         </>
     );

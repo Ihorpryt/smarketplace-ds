@@ -1,6 +1,6 @@
 import React from "react";
 import NavCard from "../components/System/NavCard";
-import {SHeader, SRow} from "../components/Layout/styles";
+import {SHeader, SGrid} from "../components/Layout/styles";
 import styleguideBg from "../assets/img/styleguideBg.jpg";
 import componentsBg from "../assets/img/componentsBg.jpg";
 import resourcesBg from "../assets/img/resourcesBg.jpg";
@@ -39,14 +39,14 @@ const Home = () => {
                 <p>Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences.</p>
             </SHeader>
 
-            <SRow>
+            <SGrid>
                 {cardArray.map((card) => (
                     <NavCard
                         key={card.id}
                         {...card}
                     />
                 ))}
-            </SRow>
+            </SGrid>
 
         </>
     );

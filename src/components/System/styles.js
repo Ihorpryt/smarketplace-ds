@@ -59,8 +59,7 @@ export const SNavCard = styled.div`
   border-radius: 10px;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.1);
   //border: 1px solid ${({theme}) => theme.bg3};
-  margin-right: 24px;
-  flex: 1;
+  flex: 0 0 32.1%;
   background: ${({theme}) => theme.bg};
   transition: 0.3s box-shadow ease-in-out;
   
@@ -68,10 +67,7 @@ export const SNavCard = styled.div`
     box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
   }
   
-
-  &:last-child {
-    margin-right: 0;
-  }
+      
   
   a {
     display: flex;
@@ -84,8 +80,8 @@ export const SNavCard = styled.div`
 `;
 
 export const SNavCardImage = styled.div`
-    height: 145px;
-    background: ${props => `url(${props.background}) no-repeat bottom center`};
+    height: 160px;
+    background: ${props => `url(${props.background}) no-repeat center center`};
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
