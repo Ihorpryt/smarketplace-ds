@@ -1,40 +1,5 @@
 import styled, {keyframes} from "styled-components";
 
-export const SColorCard = styled.div`   
-      margin: 8px;
-      padding: 16px;
-      background: ${({ theme }) => theme.bg};
-      border: 1px solid #EBEBEB;
-      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: start;
-  
-      
-      
-      h4 {
-        color: #202121;
-        font-size: 18px;
-        font-weight: 400;
-      }
-      p {
-        color: #667085;
-        font-size: 14px;
-        font-weight: 400;
-        margin-top: 8px;
-      }
-
-`;
-
-export const SColorOfCard = styled.div`
-  background: ${(props) => props.color};
-  height: 150px;
-  width: 250px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-`;
 
 
 

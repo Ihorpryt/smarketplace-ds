@@ -1,6 +1,6 @@
 import React from "react";
 import {SHeader} from "../components/Layout/styles";
-import Meme from "../components/Generator/Meme";
+import Meme from "./generator/Meme";
 
 const SlideGenerator = () => {
     return (

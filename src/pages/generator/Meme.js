@@ -1,21 +1,20 @@
 import React from "react";
 import {SmallRow, SMeme} from "./styles";
-import Input from "../System/Input/Input";
-import Button from "../System/Button/Button";
+import Input from "../../components/System/Input/Input";
+import Button from "../../components/System/Button/Button";
 import memesData from "../../assets/memesData";
 
 
 
 const Meme = () => {
 
-    //const [memeImage, setImage] = React.useState("https://i.imgflip.com/3si4.jpg")
     const [meme, setMeme] = React.useState({
         topText: "",
         bottomText: "",
         randomImage: "https://i.imgflip.com/3si4.jpg",
     })
 
-    const [allMemeImages, setAllImages] = React.useState(memesData)
+    const [allMemeImages, setAllMemeImages] = React.useState(memesData)
 
     function getMemeImage() {
         const randomIndex = Math.floor(Math.random() * allMemeImages.data.memes.length);

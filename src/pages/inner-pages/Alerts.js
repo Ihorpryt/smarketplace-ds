@@ -1,19 +1,23 @@
 import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
-import Input from "../../components/System/Input/Input";
+import Alert from "../../components/System/Alert/Alert";
 
-const Inputs = () => {
+
+const Alerts = () => {
     return (
         <>
             <SHeader>
                 <h5>Components</h5>
-                <h1>Inputs</h1>
+                <h1>Alerts</h1>
                 <p>An Input is a form field that a user can type a line of text into</p>
             </SHeader>
 
             <SComponentCage>
                 <SSizeControl>
-                    <Input label="Label" />
+                    <Alert
+                        title={"Test"}
+                        description={"Lorem ipsum dolor"}
+                    />
                 </SSizeControl>
             </SComponentCage>
 
@@ -24,4 +28,4 @@ const Inputs = () => {
 
 };
 
-export default Inputs;
+export default Alerts;

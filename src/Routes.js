@@ -10,6 +10,7 @@ import Typography from "./pages/inner-pages/Typography";
 import Buttons from "./pages/inner-pages/Buttons";
 import SlideGenerator from "./pages/SlideGenerator";
 import Inputs from "./pages/inner-pages/Inputs";
+import Alerts from "./pages/inner-pages/Alerts";
 
 const Routes = () => {
     return (
@@ -44,6 +45,9 @@ const Routes = () => {
             </Route>
             <Route path="/components/inputs">
                 <Inputs />
+            </Route>
+            <Route path="/components/alerts">
+                <Alerts />
             </Route>
 
 

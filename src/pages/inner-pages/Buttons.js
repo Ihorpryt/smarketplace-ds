@@ -5,6 +5,8 @@ import {SFrame} from "../../components/System/styles";
 const Buttons = () => {
     return (
         <>
+
+
             <SHeader>
                 <h5></h5>
                 <h1>Buttons</h1>

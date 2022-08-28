@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {SRow} from "../Layout/styles";
+import {SRow} from "../../components/Layout/styles";
 
 export const SMeme = styled.main`
   

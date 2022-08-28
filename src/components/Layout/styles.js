@@ -63,16 +63,24 @@ export const SComponentCage = styled.div`
       align-items: stretch;
       justify-content: center;
       margin-bottom: 24px;
-      background: ${({ theme }) => theme.bg};
+      //background: ${({ theme }) => theme.bg};
       padding: 48px 48px;
       border-radius: 10px;
       border: 1px solid ${({theme}) => theme.bg3};
-      div {
-        width: 100%;
-        max-width: 700px;
-      }
+      background-color: #ffffff;
+      background-image: radial-gradient(rgba(162, 162, 162, 0.45) 0.5px, #ffffff 0.5px);
+      background-size: 14px 14px;
+      box-shadow: inset 0px 0px 50px 10px white;
   
 `;
+
+export const SSizeControl = styled.div`
+      width: 100%;
+      max-width: 700px;
+      display: flex;
+      justify-content: center;
+`;
+
 export const SGrid = styled.div`
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;

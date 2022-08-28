@@ -47,6 +47,14 @@ const Components = () => {
             to: "/components/checkbox",
             numberOfComponents: 1,
         },
+        {
+            id: 6,
+            background: "https://images.pexels.com/photos/13146110/pexels-photo-13146110.jpeg",
+            title: "Alert",
+            description: "Nice component",
+            to: "/components/alerts",
+            numberOfComponents: 1,
+        },
 
     ];
 

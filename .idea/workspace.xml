@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/smallIllustrationsGradient/AlertOrange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Notifications/NotificationProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Alert/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Alert/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Alerts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/Meme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Generator/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Color/ColorBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Color/ColorBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Color/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Color/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/ColorCard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SlideGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SlideGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +63,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages" />
     </key>
   </component>
@@ -83,7 +105,8 @@
       <workItem from="1661386931583" duration="532000" />
       <workItem from="1661415928539" duration="4205000" />
       <workItem from="1661429581389" duration="108000" />
-      <workItem from="1661467529049" duration="266000" />
+      <workItem from="1661467529049" duration="394000" />
+      <workItem from="1661638525098" duration="29056000" />
     </task>
     <servers />
   </component>

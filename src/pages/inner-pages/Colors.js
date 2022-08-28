@@ -1,6 +1,8 @@
 import React from "react";
 import {SHeader, SRow} from "../../components/Layout/styles";
 import ColorBlock from "../../components/System/Color/ColorBlock";
+import Alert from "../../components/System/Alert/Alert";
+import NotificationProvider from "../../components/Notifications/NotificationProvider";
 
 const Colors = () => {
 
@@ -34,13 +36,13 @@ const Colors = () => {
     const greenArray = [
         {
             id: 1,
-            rgba: "rgba(10, 180, 58, 1)",
+            rgba: "rgba(2, 122, 72, 1)",
             name: "green-900",
             color: "white"
         },
         {
             id: 2,
-            rgba: "rgba(2, 122, 72, 1)",
+            rgba: "rgba(10, 180, 58, 1)",
             name: "green-800",
             color: "white"
         },
@@ -55,13 +57,13 @@ const Colors = () => {
     const redArray = [
         {
             id: 1,
-            rgba: "rgba(253, 31, 31, 1)",
+            rgba: "rgba(180, 35, 24, 1)",
             name: "red-900",
             color: "white"
         },
         {
             id: 2,
-            rgba: "rgba(180, 35, 24, 1)",
+            rgba: "rgba(253, 31, 31, 1)",
             name: "red-800",
             color: "white"
         },
@@ -76,13 +78,13 @@ const Colors = () => {
     const orangeArray = [
         {
             id: 1,
-            rgba: "rgba(251, 115, 38, 1)",
+            rgba: "rgba(181, 71, 8, 1)",
             name: "orange-900",
             color: "white"
         },
         {
             id: 2,
-            rgba: "rgba(181, 71, 8, 1)",
+            rgba: "rgba(251, 115, 38, 1)",
             name: "orange-800",
             color: "white"
         },
@@ -139,12 +141,16 @@ const Colors = () => {
         },
     ]
 
+
+
     return (
         <>
+            <NotificationProvider>
+
             <SHeader>
                 <h5></h5>
                 <h1>Colors</h1>
-                <p></p>
+                <p>You can click on color block to copy it's RGBA value to clipboard</p>
             </SHeader>
 
             <SRow>
@@ -187,7 +193,7 @@ const Colors = () => {
                     />
                 ))}
             </SRow>
-
+            </NotificationProvider>
 
         </>
     );

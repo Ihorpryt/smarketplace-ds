@@ -147,7 +147,7 @@ const linksArray = [
 
 const secondaryLinksArray = [
     {
-        label: "Slide Generator",
+        label: "Slide generator",
         icon: <TbSlideshow />,
         to: "/slide-generator",
     },

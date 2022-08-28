@@ -3,7 +3,7 @@ export const lightTheme = {
     bgAlpha: "rgba(250,250,250,.3)",
     bg2: "rgb(249,250,251)",
     bg3: "rgb(234,236,240)",
-    text: "rgb(45,45,45)",
+    text: "rgb(32,33,33)",
     primary: "#1EAAE2",
 };
 export const darkTheme = {
