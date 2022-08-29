@@ -1,6 +1,7 @@
 import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
-import Alert from "../../components/System/Alert/Alert";
+import {SAlert, SAlertTop} from "../../components/System/Alert/styles";
+import AlertOrange from "../../assets/smallIllustrationsGradient/AlertOrange";
 
 
 const Alerts = () => {
@@ -14,10 +15,16 @@ const Alerts = () => {
 
             <SComponentCage>
                 <SSizeControl>
-                    <Alert
-                        title={"Test"}
-                        description={"Lorem ipsum dolor"}
-                    />
+
+                    <SAlert>
+                        <SAlertTop>
+                            <AlertOrange/>
+                            <h4>Test title</h4>
+                            <button>Exit</button>
+                        </SAlertTop>
+                        <p>Test description</p>
+                    </SAlert>
+
                 </SSizeControl>
             </SComponentCage>
 
