@@ -79,6 +79,7 @@ export const SSizeControl = styled.div`
       max-width: 700px;
       display: flex;
       justify-content: center;
+      gap: 12px;
 `;
 
 export const SGrid = styled.div`

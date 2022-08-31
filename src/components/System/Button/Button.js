@@ -1,15 +1,24 @@
 import React from "react";
-import {SButton} from "./styled";
+import {PrimaryButton, SecondaryButton} from "./styled";
 
-const Button = ({text, onClick}) => {
+const Button = ({text, variant, onClick}) => {
 
-    // function handleCLick() {
-    //     console.log("I was clicked!")
-    // }
+    switch(variant) {
+        case variant = 'primary':
+            return (
+                <PrimaryButton onClick={onClick}>{text}</PrimaryButton>
+            );
+        case variant = 'secondary':
+            return (
+                <SecondaryButton onClick={onClick}>{text}</SecondaryButton>
+            );
+        default:
+            return (
+                <PrimaryButton onClick={onClick}>{text}</PrimaryButton>
+            );
+    }
 
-    return (
-        <SButton onClick={onClick}>{text}</SButton>
-    );
+
 };
 
 export default Button;
