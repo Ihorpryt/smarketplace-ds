@@ -1,16 +1,18 @@
 import React from "react";
 import {SInput} from "./styles";
 
-const Input = ({label}) => {
+const Input = ({label, name, value, onChange}) => {
     return (
         <SInput>
 
             <input
                 type="text"
-                name="bottom-text"
+                name={name}
                 placeholder="&nbsp;"
+                value={value}
+                onChange={onChange}
             />
-            <label htmlFor="bottom-text">{label}</label>
+            <label htmlFor={name}>{label}</label>
 
         </SInput>
     );

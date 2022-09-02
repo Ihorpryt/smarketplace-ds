@@ -9,37 +9,31 @@ const flicker = keyframes`
  50% { margin: 0 50px; opacity:0;}
  51% { margin: 0 -15px; opacity:0;}
  100% { margin: 0 8px; opacity:1;}
-`
+`;
 //Animation
 
 
 //Nav Card
 
 
-
-
 export const SNavCard = styled.div`
-      
   position: relative;
   border-radius: 10px;
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.1);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.1);
   flex: 0 0 32.1%;
   background: ${({theme}) => theme.bg};
   transition: 0.3s box-shadow ease-in-out;
   
   &:hover  {
-    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    box-shadow: 0 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
   }
-  
       
-  
   a {
     display: flex;
     flex-direction: column;
     height: 100%;
     text-decoration: none;
   }
-      
 `;
 
 export const SNavCardImage = styled.div`
@@ -63,7 +57,6 @@ export const SLabel = styled.div`
     right: 8px;  
     z-index: 10;  
     border-radius: 20px;
-    backdrop-filter: blur(8px);
 `;
 
 export const SNavCardText = styled.div`
@@ -71,7 +64,6 @@ export const SNavCardText = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  // background: ${({theme}) => theme.bg};
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
@@ -92,10 +84,10 @@ p {
   margin-top: 4px;
   flex-grow: 1;
 }
+      
 span {
   color: ${({theme}) => theme.primary};
-
-
+      
   span {
 
     text-transform: lowercase;

@@ -1,5 +1,5 @@
 import React from "react";
-import {SmallRow, SMeme} from "./styles";
+import {BottomText, bottomText, SmallRow, SMeme, TopText} from "./styles";
 import Input from "../../components/System/Input/Input";
 import Button from "../../components/System/Button/Button";
 import memesData from "../../assets/memesData";
@@ -26,7 +26,13 @@ const Meme = () => {
         }))
     }
 
-
+    function handleChange(event) {
+        const {name, value} = event.target
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value
+        }))
+    }
 
 
     return (
@@ -34,10 +40,16 @@ const Meme = () => {
                 <SmallRow>
                     <Input
                         label="Text on top"
+                        name="topText"
+                        value={meme.topText}
+                        onChange={handleChange}
                     />
 
                     <Input
                         label="Text on bottom"
+                        name="bottomText"
+                        value={meme.bottomText}
+                        onChange={handleChange}
                     />
                 </SmallRow>
 
@@ -49,8 +61,9 @@ const Meme = () => {
 
                 <SmallRow>
                     <img src={meme.randomImage}/>
+                    <TopText>{meme.topText}</TopText>
+                    <BottomText>{meme.bottomText}</BottomText>
                 </SmallRow>
-
 
 
         </SMeme>
