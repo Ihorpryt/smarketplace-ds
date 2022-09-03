@@ -1,6 +1,7 @@
 import React from "react";
 import {SAlert, SAlertTop} from "./styles";
 import AlertOrange from "../../../assets/smallIllustrationsGradient/AlertOrange";
+import Close from "../../../assets/icons/Close";
 
 const Alert = props => {
 
@@ -28,7 +29,7 @@ const Alert = props => {
                 <SAlertTop>
                     <AlertOrange/>
                     <h4>{props.title}</h4>
-                    <button onClick={() => handleCloseNotification(setExit(true))}>Exit</button>
+                    <Close onClick={() => handleCloseNotification(setExit(true))} />
                 </SAlertTop>
                 <p>{props.description}</p>
 

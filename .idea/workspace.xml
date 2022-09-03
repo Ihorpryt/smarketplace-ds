@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Close.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/alertBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/Input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/Meme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/generator/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/buttonBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/buttonBg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/inputBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/inputBg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Alert/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Alert/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Alerts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Alerts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +32,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D5jF7qsCgxrNFCNNbKk5R0B0Qj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -45,6 +53,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/icons" />
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages" />
     </key>
@@ -93,7 +103,8 @@
       <workItem from="1661847546879" duration="1713000" />
       <workItem from="1661981245243" duration="5959000" />
       <workItem from="1662066356433" duration="1250000" />
-      <workItem from="1662153271665" duration="2636000" />
+      <workItem from="1662153271665" duration="2865000" />
+      <workItem from="1662192351215" duration="3304000" />
     </task>
     <servers />
   </component>
@@ -110,5 +121,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

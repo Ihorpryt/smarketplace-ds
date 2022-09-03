@@ -2,6 +2,7 @@ import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
 import {SAlert, SAlertTop} from "../../components/System/Alert/styles";
 import AlertOrange from "../../assets/smallIllustrationsGradient/AlertOrange";
+import Close from "../../assets/icons/Close";
 
 
 const Alerts = () => {
@@ -20,7 +21,7 @@ const Alerts = () => {
                         <SAlertTop>
                             <AlertOrange/>
                             <h4>Test title</h4>
-                            <button>Exit</button>
+                            <Close />
                         </SAlertTop>
                         <p>Test description</p>
                     </SAlert>

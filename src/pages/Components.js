@@ -3,6 +3,7 @@ import NavCard from "../components/System/NavCard";
 import {SHeader, SGrid} from "../components/Layout/styles";
 import inputBg from "../assets/img/inputBg.jpg";
 import buttonBg from "../assets/img/buttonBg.jpg"
+import alertBg from "../assets/img/alertBg.jpg"
 
 const Components = () => {
 
@@ -13,7 +14,7 @@ const Components = () => {
             title: "Buttons",
             description: "Nice component",
             to: "/components/buttons",
-            numberOfComponents: 3,
+            numberOfComponents: 2,
         },
         {
             id: 2,
@@ -49,7 +50,7 @@ const Components = () => {
         },
         {
             id: 6,
-            background: "https://images.pexels.com/photos/13146110/pexels-photo-13146110.jpeg",
+            background: alertBg,
             title: "Alert",
             description: "Nice component",
             to: "/components/alerts",
