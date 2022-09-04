@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/memesData.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/Meme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +97,7 @@
       <workItem from="1662066356433" duration="1250000" />
       <workItem from="1662153271665" duration="2865000" />
       <workItem from="1662192351215" duration="4214000" />
-      <workItem from="1662235453815" duration="6098000" />
+      <workItem from="1662235453815" duration="6375000" />
     </task>
     <servers />
   </component>

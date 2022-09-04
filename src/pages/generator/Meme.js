@@ -22,7 +22,7 @@ const Meme = () => {
 
 
     },[])
-    console.log(allMemes)
+
     function getMemeImage() {
         const randomIndex = Math.floor(Math.random() * allMemes.length);
         const randomImg = allMemes[randomIndex].urls.regular;
