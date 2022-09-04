@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Input/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/generator/Meme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/Meme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/generator/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/generator/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,8 @@
       <workItem from="1662066356433" duration="1250000" />
       <workItem from="1662153271665" duration="2865000" />
       <workItem from="1662192351215" duration="4214000" />
-      <workItem from="1662235453815" duration="6375000" />
+      <workItem from="1662235453815" duration="6510000" />
+      <workItem from="1662316732333" duration="5072000" />
     </task>
     <servers />
   </component>

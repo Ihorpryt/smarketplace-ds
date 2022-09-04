@@ -14,8 +14,13 @@ export const SMeme = styled.main`
 `;
 
 export const SmallRow = styled(SRow)`
-    width: 600px;
-  position: relative;
+    width: 650px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin: ${props => props.margin};
+    
     h2 {
       font-size: 35px;
       color: white;
@@ -32,7 +37,7 @@ export const TopText = styled.h2`
       right: 0;
       margin-left: auto;
       margin-right: auto;
-      width: 400px;
+      width: 650px;
       
 `;
 
@@ -43,5 +48,5 @@ export const BottomText = styled.h2`
       right: 0;
       margin-left: auto;
       margin-right: auto;
-      width: 400px;
+      width: 650px;
 `;

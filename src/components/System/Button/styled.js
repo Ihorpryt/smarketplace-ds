@@ -10,7 +10,7 @@ export const PrimaryButton = styled.button `
   border: none;
   font-weight: 600;
   padding: 12px 24px;
-  width: 300px;
+  //min-width: 300px;
   transition: 0.25s ease all;
   cursor: pointer;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
@@ -34,7 +34,7 @@ export const SecondaryButton = styled.button `
   border: 1px solid #D0D5DD;
   font-weight: 600;
   padding: 12px 24px;
-  width: 300px;
+  //width: 300px;
   transition: 0.25s ease all;
   cursor: pointer;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);

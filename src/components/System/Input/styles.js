@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SInput = styled.div`
   position: relative;
-  margin-right: 12px;
   flex: 1;
   
   input {

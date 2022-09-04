@@ -1,7 +1,8 @@
-import React from "react";
-import {BottomText, bottomText, SmallRow, SMeme, TopText} from "./styles";
+import React, {useCallback, useRef} from "react";
+import {BottomText, SmallRow, SMeme, TopText} from "./styles";
 import Input from "../../components/System/Input/Input";
 import Button from "../../components/System/Button/Button";
+import {toPng} from 'html-to-image';
 
 
 
@@ -23,6 +24,8 @@ const Meme = () => {
 
     },[])
 
+
+
     function getMemeImage() {
         const randomIndex = Math.floor(Math.random() * allMemes.length);
         const randomImg = allMemes[randomIndex].urls.regular;
@@ -30,6 +33,7 @@ const Meme = () => {
                 ...prevMeme,
                 randomImage: randomImg
         }))
+
     }
 
     function handleChange(event) {
@@ -42,12 +46,29 @@ const Meme = () => {
 
 
 
+    const ref = useRef(null)
 
+    const onButtonClick = useCallback(() => {
+        if (ref.current === null) {
+            return
+        }
+
+        toPng(ref.current, { cacheBust: true, quality:0.9 })
+            .then((dataUrl) => {
+                const link = document.createElement('a')
+                link.download = 'my-image-name.png'
+                link.href = dataUrl
+                link.click()
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }, [ref])
 
 
     return (
         <SMeme>
-                <SmallRow>
+                <SmallRow margin={"0 0 24px 0"}>
                     <Input
                         label="Text on top"
                         name="topText"
@@ -63,16 +84,25 @@ const Meme = () => {
                     />
                 </SmallRow>
 
-                <Button
-                    text="Generate New Image"
-                    onClick={getMemeImage}
-                />
 
 
-                <SmallRow>
-                    <img src={meme.randomImage}/>
+                <SmallRow ref={ref} margin={"0px"}>
+                    <img src={meme.randomImage} />
                     <TopText>{meme.topText}</TopText>
                     <BottomText>{meme.bottomText}</BottomText>
+                </SmallRow>
+
+                <SmallRow>
+                    <Button
+                        text="Generate new image"
+                        onClick={getMemeImage}
+                        variant="primary"
+                    />
+                    <Button
+                        text="Download image"
+                        onClick={onButtonClick}
+                        variant="secondary"
+                    />
                 </SmallRow>
 
 
