@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/styleguideBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/img/alertBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/alertBg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/buttonBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/buttonBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/img/componentsBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/componentsBg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/inputBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/inputBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/img/resourcesBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/resourcesBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/img/styleguideBg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/styleguideBg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Color/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Color/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +105,9 @@
       <workItem from="1662192351215" duration="4214000" />
       <workItem from="1662235453815" duration="6510000" />
       <workItem from="1662316732333" duration="8240000" />
+      <workItem from="1662361478102" duration="1415000" />
+      <workItem from="1662363313023" duration="339000" />
+      <workItem from="1662363716796" duration="134000" />
     </task>
     <servers />
   </component>
