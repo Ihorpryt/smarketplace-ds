@@ -13,7 +13,11 @@ const Labels = () => {
 
             <SComponentCage>
                 <SSizeControl>
-                    <Label />
+                    <Label text="Label 1" variant="green"/>
+                    <Label text="Label 2" variant="red"/>
+                    <Label text="Label 3" variant="grey"/>
+                    <Label text="Label 4" variant="blue"/>
+                    <Label text="Label 5" variant="orange"/>
                 </SSizeControl>
             </SComponentCage>
 

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Checkboxes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Dropdowns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/alertBg.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/alertBg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Labels/Label.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Labels/Label.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Labels/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Labels/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/NavCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/NavCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Labels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Labels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globalStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globalStyles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +111,7 @@
       <workItem from="1662361478102" duration="1415000" />
       <workItem from="1662363313023" duration="339000" />
       <workItem from="1662363716796" duration="169000" />
-      <workItem from="1662384191068" duration="2791000" />
+      <workItem from="1662384191068" duration="7881000" />
     </task>
     <servers />
   </component>

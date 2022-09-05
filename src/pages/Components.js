@@ -3,7 +3,7 @@ import NavCard from "../components/System/NavCard";
 import {SHeader, SGrid} from "../components/Layout/styles";
 import inputBg from "../assets/img/inputBg.jpg";
 import buttonBg from "../assets/img/buttonBg.jpg"
-import alertBg from "../assets/img/alertBg.jpg"
+import alertBg from "../assets/img/alertBg.webp"
 
 const Components = () => {
 

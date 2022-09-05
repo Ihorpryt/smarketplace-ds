@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
         margin: 0;
         box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
     }
     html {
       height: 100%;

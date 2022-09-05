@@ -36,10 +36,10 @@ export const SNavCard = styled.div`
   }
 `;
 
-export const SNavCardImage = styled.div`
+export const SNavCardImage = styled.img`
     height: 160px;
-    background: ${props => `url(${props.background}) no-repeat center center`};
-    background-size: cover;
+    //background: ${props => `url(${props.background}) no-repeat center center`};
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     filter: saturate(3);
