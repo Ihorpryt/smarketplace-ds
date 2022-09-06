@@ -4,6 +4,7 @@ import {SHeader, SGrid} from "../components/Layout/styles";
 import inputBg from "../assets/img/inputBg.jpg";
 import buttonBg from "../assets/img/buttonBg.jpg"
 import alertBg from "../assets/img/alertBg.webp"
+import labelBg from "../assets/img/labelBg.jpg"
 
 const Components = () => {
 
@@ -50,7 +51,7 @@ const Components = () => {
         },
         {
             id: 6,
-            background: "https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+            background: labelBg,
             title: "Labels",
             description: "Nice component",
             to: "/components/labels",
