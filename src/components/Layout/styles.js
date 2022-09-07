@@ -59,8 +59,9 @@ export const SRow = styled.div`
 `;
 export const SComponentCage = styled.div`
       display: flex;
-      flex-direction: row;
-      align-items: stretch;
+      flex-direction: ${props => props.direction || "row"};
+      gap: 24px;
+      align-items: center;
       justify-content: center;
       margin-bottom: 24px;
       //background: ${({ theme }) => theme.bg};

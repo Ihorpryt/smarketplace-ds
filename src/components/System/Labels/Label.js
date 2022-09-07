@@ -1,27 +1,27 @@
 import React from "react";
 import {SLabelBlue, SLabelGreen, SLabelGrey, SLabelOrange, SLabelRed} from "./styles";
 
-const Label = ({variant,text}) => {
+const Label = ({variant,text,icon}) => {
     switch(variant) {
         case variant = 'green':
             return (
-                <SLabelGreen>{text}</SLabelGreen>
+                <SLabelGreen>{icon}{text}</SLabelGreen>
             );
         case variant = 'red':
             return (
-                <SLabelRed>{text}</SLabelRed>
+                <SLabelRed>{icon}{text}</SLabelRed>
             );
         case variant = 'grey':
             return (
-                <SLabelGrey>{text}</SLabelGrey>
+                <SLabelGrey>{icon}{text}</SLabelGrey>
             );
         case variant = 'blue':
             return (
-                <SLabelBlue>{text}</SLabelBlue>
+                <SLabelBlue>{icon}{text}</SLabelBlue>
             );
         case variant = 'orange':
             return (
-                <SLabelOrange>{text}</SLabelOrange>
+                <SLabelOrange>{icon}{text}</SLabelOrange>
             );
         default:
             return (

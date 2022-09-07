@@ -1,6 +1,10 @@
 import styled from "styled-components";
+import {SLabelGreen} from "../Labels/styles";
 
 export const PrimaryButton = styled.button `
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   background: ${({ theme }) => theme.primary};
   color: white;
@@ -24,7 +28,10 @@ export const PrimaryButton = styled.button `
   }
 `;
 
-export const SecondaryButton = styled.button `
+export const SecondaryButton = styled.button`
+  display: flex;
+  gap: 8px;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   background: white;
   color: #344054;
@@ -46,4 +53,18 @@ export const SecondaryButton = styled.button `
   &:active {
     background: white;
   }
+`;
+
+
+export const SButtonReset = styled(SecondaryButton)`
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 6px 8px;
 `;

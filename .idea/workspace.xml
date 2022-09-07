@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/figmabg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/labelBg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/NavCard-externalLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/AlertSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/CheckSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/CircleSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/CloseSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/DotsSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/PlaneSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Plus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/StarSmall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Button/ButtonReset.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Labels/Label.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Labels/Label.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Labels/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Labels/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Labels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Labels.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +123,7 @@
       <workItem from="1662363313023" duration="339000" />
       <workItem from="1662363716796" duration="169000" />
       <workItem from="1662384191068" duration="7906000" />
-      <workItem from="1662492395932" duration="2408000" />
+      <workItem from="1662492395932" duration="10039000" />
     </task>
     <servers />
   </component>

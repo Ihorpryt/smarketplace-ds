@@ -55,7 +55,7 @@ const Components = () => {
             title: "Labels",
             description: "Nice component",
             to: "/components/labels",
-            numberOfComponents: 0,
+            numberOfComponents: 5,
         },
 
     ];
