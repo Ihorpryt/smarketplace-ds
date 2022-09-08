@@ -6,8 +6,8 @@ const Dropdowns = () => {
         <>
             <SHeader>
                 <h5>Components</h5>
-                <h1>Dropdowns</h1>
-                <p>You can click on color block to copy it's RGBA value to clipboard</p>
+                <h1>Select</h1>
+                <p>A select list enables users to select one or more items from a list. Use a select list when options are dynamic or variable.</p>
             </SHeader>
 
         </>
