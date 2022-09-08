@@ -8,7 +8,7 @@ const Checkboxes = () => {
             <SHeader>
                 <h5>Components</h5>
                 <h1>Checkboxes</h1>
-                <p>You can click on color block to copy it's RGBA value to clipboard</p>
+                <p>A checkbox is used to select a single item or multiple items, typically to choose elements to perform an action or to reflect a binary setting.</p>
             </SHeader>
 
             <SComponentCage>

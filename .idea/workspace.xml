@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/System/Checkbox/Checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Checkbox/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/checkboxBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Checkbox/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Checkbox/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Checkboxes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Checkboxes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +113,8 @@
       <workItem from="1662363716796" duration="169000" />
       <workItem from="1662384191068" duration="7906000" />
       <workItem from="1662492395932" duration="12212000" />
-      <workItem from="1662580395990" duration="11249000" />
+      <workItem from="1662580395990" duration="11417000" />
+      <workItem from="1662662185021" duration="1836000" />
     </task>
     <servers />
   </component>

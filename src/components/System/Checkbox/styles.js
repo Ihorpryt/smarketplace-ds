@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SMark = styled.div`
   position: absolute;
-  left: 1.8px;
+  left: 1.3px;
   bottom: -2.5px;
   opacity: 0;
   pointer-events: none;
@@ -19,6 +19,9 @@ export const SCheckbox = styled.div`
 
   span {
     cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
   }
   
   
@@ -55,13 +58,13 @@ export const SCheckbox = styled.div`
     }
     
     &:disabled {
-      border-color: #c0c0c0;
-      background-color: #c0c0c0;
+      border-color: #D0D5DD;
+      background-color: #D0D5DD;
       cursor: default;
     }
     
     &:disabled ~ span {
-      color: #c0c0c0;
+      color: #D0D5DD;
       cursor: default;
     }
     
