@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { components } from "react-select";
 
-export const Control = (props: any) => {
+export const MultiControl = (props: any) => {
     return (
         <>
-            <Label isFloating={props.isFocused || props.hasValue}>Select</Label>
+            <Label isFloating={props.isFocused || props.hasValue}>Multi select</Label>
             <components.Control {...props} />
     </>
 );
@@ -20,6 +20,6 @@ const Label = styled.label<{ isFloating?: boolean }>`
   z-index: 1;
   color: #667085;
   
-  top: ${(props) => (props.isFloating ? `11px` : `18px`)};
+  top: ${(props) => (props.isFloating ? `7px` : `18px`)};
   font-size: ${(props) => (props.isFloating ? `12px` : `16px`)};
 `;

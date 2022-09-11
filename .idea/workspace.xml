@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/System/Select/Control.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Select/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Select/MultiControl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Select/SingleSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Checkbox/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Checkbox/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Input/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Input/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Alerts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Alerts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Select/Control.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/SingleControl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Select/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/MultiSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Selects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Selects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tarikelshaar/Documents/react/ds/src/components/System&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tarikelshaar/Documents/react/ds/src/components/System/Select",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/System/Select" />
       <recent name="$PROJECT_DIR$/src/components/System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -122,7 +115,8 @@
       <workItem from="1662492395932" duration="12212000" />
       <workItem from="1662580395990" duration="11417000" />
       <workItem from="1662662185021" duration="4345000" />
-      <workItem from="1662831310614" duration="11733000" />
+      <workItem from="1662831310614" duration="12012000" />
+      <workItem from="1662882305492" duration="5460000" />
     </task>
     <servers />
   </component>

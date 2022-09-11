@@ -1,6 +1,7 @@
 import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
-import SingleSelect from "../../components/System/Select/Select";
+import SingleSelect from "../../components/System/Select/SingleSelect";
+import MultiSelect from "../../components/System/Select/MultiSelect";
 
 const Selects = () => {
     return (
@@ -15,6 +16,14 @@ const Selects = () => {
                 <SSizeControl>
                     <div style={{width: "100%"}}>
                         <SingleSelect />
+                    </div>
+                </SSizeControl>
+            </SComponentCage>
+
+            <SComponentCage>
+                <SSizeControl>
+                    <div style={{width: "100%"}}>
+                        <MultiSelect />
                     </div>
                 </SSizeControl>
             </SComponentCage>

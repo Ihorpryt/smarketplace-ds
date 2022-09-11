@@ -1,14 +1,10 @@
+
 import React from "react";
 import Select from "react-select";
 import makeAnimated from "react-select/animated"
-import {Control} from "./Control.tsx";
+import {MultiControl} from "./MultiControl.tsx";
 
 const optionsSizes = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' },
-];
-const optionsToppings = [
     { value: 'chocolate', label: 'Chocolate' },
     { value: 'strawberry', label: 'Strawberry' },
     { value: 'vanilla', label: 'Vanilla' },
@@ -36,7 +32,13 @@ const SingleSelect = () => {
             fontWeight: state.isSelected ? "bold" : "normal",
             color: "#202121",
             backgroundColor: state.data.color,
-            fontSize: state.selectProps.myFontSize
+            fontSize: state.selectProps.myFontSize,
+            cursor: "pointer",
+            transition: "0.3s",
+            '&:hover': {
+                backgroundColor: "rgba(0,0,0,0.03)",
+            },
+
         }),
         singleValue: (provided, state) => ({
             ...provided,
@@ -55,6 +57,7 @@ const SingleSelect = () => {
             fontWeight: 500,
             boxShadow: state.isFocused ? "0 0 0 2px #1EAAE2" : "0 0 0 0px #1EAAE2",
             transition: "0.3s",
+            cursor: "pointer",
             '&:hover': {
                 //borderColor: '#667085',
                 borderColor: state.isFocused ? "#1EAAE2" : "#667085",
@@ -64,12 +67,36 @@ const SingleSelect = () => {
         input: (provided) => ({
             ...provided,
             margin: "0",
-            marginTop: "18px",
+            marginTop: "20px",
             fontWeight: 500,
         }),
         menu: (provided) => ({
             ...provided,
             borderRadius: "10px",
+        }),
+        valueContainer: (provided) => ({
+            ...provided,
+            alignItems: "flex-end",
+        }),
+        multiValue: (provided) => ({
+            ...provided,
+            borderRadius: "20px",
+            // borderColor: state.isFocused ? "#1EAAE2" : "#D0D5DD",
+            // borderWidth: "1px",
+            border: "1px solid #D0D5DD",
+            backgroundColor: "white",
+            paddingLeft: "4px",
+            margin:"0px",
+            marginRight:"4px",
+        }),
+        multiValueRemove: (provided) => ({
+            ...provided,
+            margin: "2px",
+            '&:hover': {
+                borderRadius: "20px",
+                cursor: "pointer",
+
+            },
         }),
     };
 
@@ -87,8 +114,9 @@ const SingleSelect = () => {
             myFontSize="16px"
             components={{
                 IndicatorSeparator: () => null,
-                Control
+                Control: MultiControl
             }}
+            isMulti
         />
     );
 };
