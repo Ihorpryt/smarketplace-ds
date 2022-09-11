@@ -12,6 +12,7 @@ export const SSidebar = styled.div`
     position: sticky;
     flex-shrink: 0;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.1);
+  
 `;
 
 export const SSidebarButton = styled.button`
@@ -28,7 +29,6 @@ export const SSidebarButton = styled.button`
     align-items: center;
     justify-content: center;
     cursor: pointer;
-
     transform: ${({ isOpen }) => (!isOpen ? `rotate(180deg)` : `initial`)};
 `;
 

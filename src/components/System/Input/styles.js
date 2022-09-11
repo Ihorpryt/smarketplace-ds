@@ -16,7 +16,7 @@ export const SInput = styled.div`
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    transition: 0.25s ease all;
+    transition: 0.3s ease all;
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
     
     
@@ -28,10 +28,12 @@ export const SInput = styled.div`
       border: 1px solid #667085;
     }
 
-    &:focus {
-      outline: 3px solid rgba(29, 120, 176, 0.25);
-      border: 1px solid rgba(29, 90, 197, 1);
+    &:focus, &:focus-visible {
+      outline: none;
+      border: 1px solid ${({theme}) => theme.primary};
+      box-shadow:0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px ${({theme}) => theme.primary};
     }
+
     
     &:focus ~ label, &:not(:placeholder-shown) ~ label, &:-webkit-autofill ~ label {
       font-size: 12px;
@@ -51,9 +53,9 @@ export const SInput = styled.div`
     pointer-events: none;
     left: 14px;
     top: 16px;
-    transition: 0.25s ease all;
-    -moz-transition: 0.25s ease all;
-    -webkit-transition: 0.25s ease all;
+    transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
   }
   
 `;

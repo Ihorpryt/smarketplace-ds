@@ -43,6 +43,7 @@ export const SNavCardImage = styled.img`
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     filter: saturate(3);
+    width: 100%;  
       
 `;
 

@@ -12,7 +12,7 @@ import SlideGenerator from "./pages/SlideGenerator";
 import Inputs from "./pages/inner-pages/Inputs";
 import Alerts from "./pages/inner-pages/Alerts";
 import Labels from "./pages/inner-pages/Labels";
-import Dropdowns from "./pages/inner-pages/Dropdowns";
+import Selects from "./pages/inner-pages/Selects";
 import Checkboxes from "./pages/inner-pages/Checkboxes";
 
 const Routes = () => {
@@ -55,8 +55,8 @@ const Routes = () => {
             <Route path="/components/labels">
                 <Labels />
             </Route>
-            <Route path="/components/dropdowns">
-                <Dropdowns />
+            <Route path="/components/selects">
+                <Selects />
             </Route>
             <Route path="/components/checkboxes">
                 <Checkboxes />

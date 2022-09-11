@@ -30,7 +30,7 @@ import {
 } from "react-icons/tb";
 
 import { ThemeContext } from "../../App";
-import {matchPath, useLocation} from "react-router-dom";
+import {Link, matchPath, useLocation} from "react-router-dom";
 
 const Sidebar = () => {
     const searchRef = useRef(null);
@@ -55,9 +55,13 @@ const Sidebar = () => {
                     <TbChevronLeft />
                 </SSidebarButton>
             </>
-            <SLogo>
-                <img src={logoSVG} alt="logo" />
-            </SLogo>
+
+            <Link to={"/"}>
+                <SLogo>
+                    <img src={logoSVG} alt="logo" />
+                </SLogo>
+            </Link>
+
             <SSearch
                 onClick={searchClickHandler}
                 style={!sidebarOpen ? { width: `fit-content` } : {}}

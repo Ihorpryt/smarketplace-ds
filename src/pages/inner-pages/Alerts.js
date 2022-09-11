@@ -11,7 +11,8 @@ const Alerts = () => {
             <SHeader>
                 <h5>Components</h5>
                 <h1>Alerts</h1>
-                <p>An Input is a form field that a user can type a line of text into</p>
+                <p>
+                    An alert is a notification that provides brief information to the user without blocking their workflow.</p>
             </SHeader>
 
             <SComponentCage>

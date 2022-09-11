@@ -1,7 +1,8 @@
 import React from "react";
-import {SHeader} from "../../components/Layout/styles";
+import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
+import SingleSelect from "../../components/System/Select/Select";
 
-const Dropdowns = () => {
+const Selects = () => {
     return (
         <>
             <SHeader>
@@ -10,10 +11,18 @@ const Dropdowns = () => {
                 <p>A select list enables users to select one or more items from a list. Use a select list when options are dynamic or variable.</p>
             </SHeader>
 
+            <SComponentCage>
+                <SSizeControl>
+                    <div style={{width: "100%"}}>
+                        <SingleSelect />
+                    </div>
+                </SSizeControl>
+            </SComponentCage>
+
         </>
     );
 
 
 };
 
-export default Dropdowns;
+export default Selects;

@@ -37,8 +37,9 @@ export const SCheckbox = styled.div`
     border: 1px solid #D0D5DD;
     outline: none;
     cursor: pointer;
-    transition: 0.15s;
     background-color: white;
+    transition: 0.3s ease all;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
     
     
     &:hover {
@@ -46,7 +47,9 @@ export const SCheckbox = styled.div`
     }
 
     &:focus {
-      outline: 3px solid rgba(29, 120, 176, 0.25);
+      outline: none;
+      border: 1px solid ${({theme}) => theme.primary};
+      box-shadow:0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px ${({theme}) => theme.primary};
     }
     &:checked {
       background-color: ${({theme}) => theme.primary};
