@@ -6,6 +6,7 @@ import buttonBg from "../assets/img/buttonBg.jpg"
 import alertBg from "../assets/img/alertBg.webp"
 import labelBg from "../assets/img/labelBg.jpg"
 import checkboxBg from "../assets/img/checkboxBg.jpg"
+import selectBg from "../assets/img/selectBg.jpg"
 
 const Components = () => {
 
@@ -16,7 +17,7 @@ const Components = () => {
             title: "Buttons",
             description: "Communicates and triggers user actions when clicked",
             to: "/components/buttons",
-            numberOfComponents: 2,
+            numberOfComponents: 3,
         },
         {
             id: 2,
@@ -36,11 +37,11 @@ const Components = () => {
         },
         {
             id: 4,
-            background: "https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
+            background: selectBg,
             title: "Select",
             description: "Select one or more items from a list",
             to: "/components/selects",
-            numberOfComponents: 1,
+            numberOfComponents: 2,
         },
         {
             id: 5,

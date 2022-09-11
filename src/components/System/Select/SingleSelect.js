@@ -53,11 +53,10 @@ const SingleSelect = () => {
             paddingLeft: "5px",
             paddingRight: "5px",
             fontWeight: 500,
-            boxShadow: state.isFocused ? "0 0 0 2px #1EAAE2" : "0 0 0 0px #1EAAE2",
+            boxShadow: state.isFocused ? "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px #1EAAE2" : "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 0px #1EAAE2",
             transition: "0.3s",
             cursor: "pointer",
             '&:hover': {
-                //borderColor: '#667085',
                 borderColor: state.isFocused ? "#1EAAE2" : "#667085",
             },
             borderColor: state.isFocused ? "#1EAAE2" : "#D0D5DD",
@@ -72,6 +71,10 @@ const SingleSelect = () => {
             ...provided,
             borderRadius: "10px",
         }),
+        dropdownIndicator: (provided) => ({
+            ...provided,
+            color: "#667085",
+        })
     };
 
     return (

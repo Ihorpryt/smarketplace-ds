@@ -1,8 +1,9 @@
 
 import React from "react";
-import Select from "react-select";
+import Select, { components } from "react-select";
 import makeAnimated from "react-select/animated"
 import {MultiControl} from "./MultiControl.tsx";
+import Plus2 from "../../../assets/icons/Plus2";
 
 const optionsSizes = [
     { value: 'chocolate', label: 'Chocolate' },
@@ -10,6 +11,13 @@ const optionsSizes = [
     { value: 'vanilla', label: 'Vanilla' },
 ];
 
+const DropdownIndicator = props => {
+    return (
+        <components.DropdownIndicator {...props}>
+            <Plus2 />
+        </components.DropdownIndicator>
+    );
+};
 
 
 const SingleSelect = () => {
@@ -55,11 +63,10 @@ const SingleSelect = () => {
             paddingLeft: "5px",
             paddingRight: "5px",
             fontWeight: 500,
-            boxShadow: state.isFocused ? "0 0 0 2px #1EAAE2" : "0 0 0 0px #1EAAE2",
+            boxShadow: state.isFocused ? "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px #1EAAE2" : "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 0px #1EAAE2",
             transition: "0.3s",
             cursor: "pointer",
             '&:hover': {
-                //borderColor: '#667085',
                 borderColor: state.isFocused ? "#1EAAE2" : "#667085",
             },
             borderColor: state.isFocused ? "#1EAAE2" : "#D0D5DD",
@@ -81,8 +88,6 @@ const SingleSelect = () => {
         multiValue: (provided) => ({
             ...provided,
             borderRadius: "20px",
-            // borderColor: state.isFocused ? "#1EAAE2" : "#D0D5DD",
-            // borderWidth: "1px",
             border: "1px solid #D0D5DD",
             backgroundColor: "white",
             paddingLeft: "4px",
@@ -91,11 +96,18 @@ const SingleSelect = () => {
         }),
         multiValueRemove: (provided) => ({
             ...provided,
-            margin: "2px",
+            margin: "1px",
+            paddingLeft: "3px",
+            paddingRight: "3px",
+            backgroundColor: "#f9fafb",
+            transition: "0.3s",
+            borderRadius: "20px",
+            color: "#344054",
             '&:hover': {
                 borderRadius: "20px",
                 cursor: "pointer",
-
+                backgroundColor: "#EAEBED",
+                color: "#344054",
             },
         }),
     };
@@ -114,7 +126,8 @@ const SingleSelect = () => {
             myFontSize="16px"
             components={{
                 IndicatorSeparator: () => null,
-                Control: MultiControl
+                Control: MultiControl,
+                DropdownIndicator,
             }}
             isMulti
         />
