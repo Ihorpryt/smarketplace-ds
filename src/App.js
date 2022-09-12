@@ -17,24 +17,6 @@ const App = () => {
             <ThemeProvider theme={themeStyle}>
                 <GlobalStyle />
                 <Helmet>
-
-                    <meta name="title" content="Staffing Marketplace Design System" />
-                        <meta name="description" content="Design system for digital experiences" />
-
-
-                            <meta property="og:type" content="website" />
-                                <meta property="og:url" content="https://smarketplace-ds.vercel.app/" />
-                                    <meta property="og:title" content="Staffing Marketplace Design System" />
-                                        <meta property="og:description" content="Design system for digital experiences" />
-                                            <meta property="og:image" content="%PUBLIC_URL%/meta-min.jpg" />
-
-
-                                                <meta property="twitter:card" content="summary_large_image" />
-                                                    <meta property="twitter:url" content="https://smarketplace-ds.vercel.app/" />
-                                                        <meta property="twitter:title" content="Staffing Marketplace Design System" />
-                                                            <meta property="twitter:description" content="Design system for digital experiences" />
-                                                                <meta property="twitter:image" content="%PUBLIC_URL%/meta-min.jpg" />
-
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                     <link
