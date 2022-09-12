@@ -18,10 +18,9 @@ const App = () => {
                 <GlobalStyle />
                 <Helmet>
                     <title>Staffing Marketplace Design System</title>
-                    <meta
-                        name="description"
-                        content="Design system for digital experiences"
-                    />
+                    <meta name="description" content="Design system for digital experiences" />
+                    <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
+
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                     <link
