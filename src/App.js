@@ -19,7 +19,7 @@ const App = () => {
                 <Helmet>
                     <title>Staffing Marketplace Design System</title>
                     <meta name="description" content="Design system for digital experiences" />
-                    <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
+                    <meta property="og:image" content="https://images.pexels.com/photos/13509942/pexels-photo-13509942.jpeg" />
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
