@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {SLabelGreen} from "../Labels/styles";
 
 export const PrimaryButton = styled.button `
   display: flex;
@@ -18,6 +17,8 @@ export const PrimaryButton = styled.button `
   transition: 0.25s ease all;
   cursor: pointer;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  opacity: ${({isDisabled}) => (isDisabled ? ".5" : "1")};
+  pointer-events: ${({isDisabled}) => (isDisabled ? "none" : "auto")};
 
   &:hover {
     background: #0599D3;
@@ -45,6 +46,8 @@ export const SecondaryButton = styled.button`
   transition: 0.25s ease all;
   cursor: pointer;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  opacity: ${({isDisabled}) => (isDisabled ? ".5" : "1")};
+  pointer-events: ${({isDisabled}) => (isDisabled ? "none" : "auto")};
 
   &:hover {
     background: #F9FAFB;

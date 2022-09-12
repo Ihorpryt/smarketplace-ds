@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Plus2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/selectBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Select/MultiSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/MultiSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/System/Select/SingleSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/SingleSelect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Buttons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,9 @@
       <workItem from="1662831310614" duration="12012000" />
       <workItem from="1662882305492" duration="6018000" />
       <workItem from="1662925737761" duration="4334000" />
-      <workItem from="1662936284520" duration="216000" />
+      <workItem from="1662936284520" duration="342000" />
+      <workItem from="1662938939736" duration="105000" />
+      <workItem from="1663010401603" duration="2017000" />
     </task>
     <servers />
   </component>

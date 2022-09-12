@@ -40,7 +40,7 @@ const SingleSelect = () => {
         }),
         singleValue: (provided, state) => ({
             ...provided,
-            color: state.data.color,
+            color: "#202121",
             fontSize: state.selectProps.myFontSize,
             margin: "0",
             marginTop: "18px",

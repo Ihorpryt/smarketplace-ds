@@ -26,9 +26,17 @@ const Buttons = () => {
                     <Button
                         variant="primary"
                         text="Primary"
-                        isIcon={false}
                     />
+                    <Button
+                        variant="primary"
+                        text="Disabled"
+                        isDisabled={true}
+                    />
+                </SSizeControl>
+            </SComponentCage>
 
+            <SComponentCage>
+                <SSizeControl>
                     <Button
                         variant="secondary"
                         text="Secondary w icon"
@@ -38,6 +46,11 @@ const Buttons = () => {
                     <Button
                         variant="secondary"
                         text="Secondary"
+                    />
+                    <Button
+                        variant="secondary"
+                        text="Disabled"
+                        isDisabled={true}
                     />
                 </SSizeControl>
             </SComponentCage>

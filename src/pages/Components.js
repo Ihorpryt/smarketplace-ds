@@ -55,7 +55,7 @@ const Components = () => {
             id: 6,
             background: labelBg,
             title: "Labels",
-            description: "Nice component",
+            description: "Allows users to add specific element captions",
             to: "/components/labels",
             numberOfComponents: 5,
         },
