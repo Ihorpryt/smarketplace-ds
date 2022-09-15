@@ -111,3 +111,43 @@ span {
 export const SFrame = styled.iframe`
       border: 1px solid ${({theme}) => theme.bg3};
 `;
+
+export const SShadowPopup = styled.div `
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #667085;
+      height: 200px;
+      width: 550px;
+      background: #FFFFFF;
+      border: 1px solid #EAECF0;
+      box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+      border-radius: 10px;
+`;
+
+
+export const SBtnInput = styled.div `
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #667085;
+      height: 200px;
+      width: 550px;
+      background: #FFFFFF;
+      border: 1px solid #D0D5DD;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+      border-radius: 10px;
+`;
+
+export const SCard = styled.div `
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #667085;
+      height: 200px;
+      width: 550px;
+      background: #FFFFFF;
+      border: 1px solid #EAECF0;
+      box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.06), 0px 1px 3px rgba(16, 24, 40, 0.1);
+      border-radius: 10px;
+`;
