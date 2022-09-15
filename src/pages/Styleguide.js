@@ -31,9 +31,9 @@ const Styleguide = () => {
     return (
         <>
             <SHeader>
-                <h5>Getting started with</h5>
+                <h5>Digital identity</h5>
                 <h1>Styleguide</h1>
-                <p>Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences.</p>
+                <p>Visual, atomic elements that bring together a UI.</p>
             </SHeader>
 
             <SGrid>

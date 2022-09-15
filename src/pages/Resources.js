@@ -19,9 +19,9 @@ const Resources = () => {
     return (
         <>
             <SHeader>
-                <h5>Getting started with</h5>
+                <h5>At hand</h5>
                 <h1>Resources</h1>
-                <p>Components are the reusable building blocks of our design system. Each component meets a specific interaction or UI need, and has been specifically created to work together to create patterns and intuitive user experiences.</p>
+                <p>Useful assets.</p>
             </SHeader>
 
             <SGrid>
