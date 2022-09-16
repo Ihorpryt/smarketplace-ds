@@ -17,7 +17,7 @@ import {
     SToggleThumb,
 } from "./styles";
 
-import { logoSVG } from "../../assets";
+import { logoSVG, textLogoSVG } from "../../assets";
 
 import {
     TbBrush,
@@ -33,20 +33,20 @@ import { ThemeContext } from "../../App";
 import {Link, matchPath, useLocation} from "react-router-dom";
 
 const Sidebar = () => {
-    const searchRef = useRef(null);
+    // const searchRef = useRef(null);
     const { setTheme, theme } = useContext(ThemeContext);
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const { pathname } = useLocation();
 
 
-    const searchClickHandler = () => {
-        if (!sidebarOpen) {
-            setSidebarOpen(true);
-            searchRef.current.focus();
-        } else {
-            // search functionality
-        }
-    };
+    // const searchClickHandler = () => {
+    //     if (!sidebarOpen) {
+    //         setSidebarOpen(true);
+    //         searchRef.current.focus();
+    //     } else {
+    //         // search functionality
+    //     }
+    // };
 
     return (
         <SSidebar isOpen={sidebarOpen}>
@@ -59,23 +59,25 @@ const Sidebar = () => {
             <Link to={"/"}>
                 <SLogo>
                     <img src={logoSVG} alt="logo" />
+                    {sidebarOpen ? <img src={textLogoSVG} alt="logo" /> : ""}
                 </SLogo>
             </Link>
 
-            <SSearch
-                onClick={searchClickHandler}
-                style={!sidebarOpen ? { width: `fit-content` } : {}}
-            >
-                <SSearchIcon>
-                    <TbSearch />
-                </SSearchIcon>
-                <input
-                    ref={searchRef}
-                    placeholder="Search"
-                    style={!sidebarOpen ? { width: 0, padding: 0 } : {}}
-                />
-            </SSearch>
-            <SDivider />
+            {/*<SSearch*/}
+            {/*    onClick={searchClickHandler}*/}
+            {/*    style={!sidebarOpen ? { width: `fit-content` } : {}}*/}
+            {/*>*/}
+            {/*    <SSearchIcon>*/}
+            {/*        <TbSearch />*/}
+            {/*    </SSearchIcon>*/}
+            {/*    <input*/}
+            {/*        ref={searchRef}*/}
+            {/*        placeholder="Search"*/}
+            {/*        style={!sidebarOpen ? { width: 0, padding: 0 } : {}}*/}
+            {/*    />*/}
+            {/*</SSearch>*/}
+
+            {/*<SDivider />*/}
             {linksArray.map(({ icon, label, notification, to }) => (
                 //<SLinkContainer key={label} isActive={pathname === to}>
                 <SLinkContainer key={label} isActive={matchPath(pathname, {

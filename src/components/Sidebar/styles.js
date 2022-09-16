@@ -32,12 +32,22 @@ export const SSidebarButton = styled.button`
 `;
 
 export const SLogo = styled.div`
-    width: 52px;
+    //width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 12px;
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 52px;
+  }
+  img:nth-child(2) {
+    height:26px;
+    width: 128px;
+  }
     cursor: pointer;
 
     margin-bottom: ${v.lgSpacing};
