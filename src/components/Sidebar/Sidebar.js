@@ -144,6 +144,12 @@ const linksArray = [
         notification: 0,
     },
     {
+        label: "Pages",
+        icon: <TbBoxMultiple />,
+        to: "/pages",
+        notification: 0,
+    },
+    {
         label: "Resources",
         icon: <TbArchive />,
         to: "/resources",

@@ -14,6 +14,10 @@ import Alerts from "./pages/inner-pages/Alerts";
 import Labels from "./pages/inner-pages/Labels";
 import Selects from "./pages/inner-pages/Selects";
 import Checkboxes from "./pages/inner-pages/Checkboxes";
+import Pages from "./pages/Pages";
+import Login from "./pages/inner-pages/LoginSP/Login";
+
+
 
 const Routes = () => {
     return (
@@ -63,6 +67,16 @@ const Routes = () => {
             </Route>
 
 
+            <Route exact path="/pages">
+                <Pages />
+            </Route>
+
+            <Route path="/pages/login">
+                <Login />
+            </Route>
+
+
+
             <Route exact path="/resources">
                 <Resources />
             </Route>
@@ -73,5 +87,6 @@ const Routes = () => {
         </Switch>
     );
 };
+
 
 export default Routes;

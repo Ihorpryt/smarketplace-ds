@@ -29,6 +29,14 @@ const Home = () => {
             description: "Useful assets",
             to: "/resources",
         },
+        {
+            id: 4,
+            background: componentsBg,
+            title: "Pages",
+            description: "Components are reusable building blocks of the UI, crafted with Styleguide.",
+            to: "/pages",
+        },
+
     ];
 
     return (

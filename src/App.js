@@ -5,12 +5,25 @@ import Layout from "./components/Layout/Layout";
 import Routes from "./Routes";
 import { GlobalStyle } from "./styles/globalStyles";
 import { darkTheme, lightTheme } from "./styles/theme";
+import {matchPath, useLocation} from "react-router-dom";
 
 export const ThemeContext = React.createContext(null);
 
 const App = () => {
     const [theme, setTheme] = useState("light");
     const themeStyle = theme === "light" ? lightTheme : darkTheme;
+
+
+    const location = useLocation();
+    console.log(location.pathname)
+
+    const singlePageArray = ["/pages/login", "/pages/else"]
+
+    const test = matchPath(location.pathname, {
+        path: singlePageArray,
+        exact: false,
+        strict: false
+    })
 
     return (
         <ThemeContext.Provider value={{ setTheme, theme }}>
@@ -24,13 +37,20 @@ const App = () => {
                         rel="stylesheet" />
                 </Helmet>
                 <>
-                    <Layout>
-                        <Routes />
-                    </Layout>
+                    { test
+                        ?
+                            <Routes/>
+                        :
+                        <Layout>
+                            <Routes/>
+                        </Layout>
+                    }
                 </>
             </ThemeProvider>
         </ThemeContext.Provider>
     );
 };
+
+
 
 export default App;

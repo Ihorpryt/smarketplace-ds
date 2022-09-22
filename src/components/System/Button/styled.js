@@ -4,6 +4,7 @@ export const PrimaryButton = styled.button `
   display: flex;
   gap: 8px;
   align-items: center;
+  justify-content: center;
   font-family: 'Inter', sans-serif;
   background: ${({ theme }) => theme.primary};
   color: white;
@@ -33,6 +34,7 @@ export const SecondaryButton = styled.button`
   display: flex;
   gap: 8px;
   align-items: center;
+  justify-content: center;
   font-family: 'Inter', sans-serif;
   background: white;
   color: #344054;
@@ -67,6 +69,7 @@ export const SButtonReset = styled(SecondaryButton)`
   line-height: 12px;
   display: flex;
   align-items: center;
+  justify-content: center;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 6px 8px;

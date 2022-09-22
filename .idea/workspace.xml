@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/textLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Search/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comp.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/gradientcover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tarikelshaar/Documents/react/ds/src/components/System/Select&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tarikelshaar/Documents/react/ds/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -50,10 +55,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/System/Select" />
       <recent name="$PROJECT_DIR$/src/components/System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/inner-pages/LoginSP" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -122,7 +129,16 @@
       <workItem from="1662938939736" duration="105000" />
       <workItem from="1663010401603" duration="4598000" />
       <workItem from="1663268106512" duration="1803000" />
-      <workItem from="1663326424259" duration="2850000" />
+      <workItem from="1663326424259" duration="3423000" />
+      <workItem from="1663362312404" duration="23000" />
+      <workItem from="1663623027550" duration="76000" />
+      <workItem from="1663623147909" duration="48000" />
+      <workItem from="1663629002093" duration="907000" />
+      <workItem from="1663704491694" duration="9944000" />
+      <workItem from="1663802151277" duration="2657000" />
+      <workItem from="1663849983350" duration="112000" />
+      <workItem from="1663850193604" duration="1110000" />
+      <workItem from="1663870363111" duration="6321000" />
     </task>
     <servers />
   </component>
