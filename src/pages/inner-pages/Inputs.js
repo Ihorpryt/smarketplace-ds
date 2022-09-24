@@ -1,6 +1,7 @@
 import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
 import Input from "../../components/System/Input/Input";
+import InputGroup from "../../components/System/InputGroup/InputGroup";
 
 const Inputs = () => {
     return (
@@ -14,6 +15,12 @@ const Inputs = () => {
             <SComponentCage>
                 <SSizeControl>
                     <Input label="Label" />
+                </SSizeControl>
+            </SComponentCage>
+
+            <SComponentCage>
+                <SSizeControl>
+                    <InputGroup label="Amount" />
                 </SSizeControl>
             </SComponentCage>
 

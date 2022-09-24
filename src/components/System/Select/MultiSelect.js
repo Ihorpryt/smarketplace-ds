@@ -37,6 +37,11 @@ const SingleSelect = () => {
     const styles = {
         option: (provided, state) => ({
             ...provided,
+            marginLeft: "4px",
+            marginRight: "4px",
+            borderRadius: "6px",
+            width: "auto",
+
             fontWeight: state.isSelected ? "bold" : "normal",
             color: "#202121",
             backgroundColor: state.data.color,

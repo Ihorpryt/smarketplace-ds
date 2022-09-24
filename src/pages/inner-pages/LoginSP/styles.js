@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
 export const SWrapper = styled.div`
   height: 100vh;
@@ -165,11 +165,19 @@ export const SVideo = styled.video`
   top:-50px;
 `;
 
+const cloudAnimation = keyframes`
+ 0% { opacity: 0; }
+ 100% { opacity: 1; }
+`
+
 export const SGrad = styled.img`
   width: 100%;
   position: absolute;
   bottom: 0;
   z-index: 10;
+  animation-name: ${cloudAnimation};
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 `;
 
 export const SBackButton = styled.button`

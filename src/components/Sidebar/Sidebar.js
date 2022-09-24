@@ -27,6 +27,7 @@ import {
     TbSearch,
     TbChevronLeft,
     TbSlideshow,
+    TbBrowser,
 } from "react-icons/tb";
 
 import { ThemeContext } from "../../App";
@@ -145,7 +146,7 @@ const linksArray = [
     },
     {
         label: "Pages",
-        icon: <TbBoxMultiple />,
+        icon: <TbBrowser />,
         to: "/pages",
         notification: 0,
     },

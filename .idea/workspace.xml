@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/comp.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/gradientcover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Input/InputDropdownButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/InputGroup/InputGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/InputGroup/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/gradientcover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/gradientcover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Select/MultiSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/MultiSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Select/SingleSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Select/SingleSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,8 @@
       <workItem from="1663802151277" duration="2657000" />
       <workItem from="1663849983350" duration="112000" />
       <workItem from="1663850193604" duration="1110000" />
-      <workItem from="1663870363111" duration="6321000" />
+      <workItem from="1663870363111" duration="6969000" />
+      <workItem from="1664030809987" duration="7563000" />
     </task>
     <servers />
   </component>

@@ -1,30 +1,13 @@
 import React from "react";
 import Select from "react-select";
-import {SingleControl} from "./SingleControl.tsx";
 
-const optionsSizes = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' },
+const options = [
+    { value: 'miles', label: 'Miles' },
+    { value: 'kilometers', label: 'Kilometers' },
 ];
 
+const InputDropdownButton = () => {
 
-
-
-const SingleSelect = () => {
-    const [size, setSize] = React.useState({});
-
-    function customTheme(theme) {
-        return {
-            ...theme,
-            colors: {
-                ...theme.colors,
-                primary25: 'orange',
-                primary: '#1EAAE2',
-            },
-
-        };
-    }
     const styles = {
         option: (provided, state) => ({
             ...provided,
@@ -41,6 +24,7 @@ const SingleSelect = () => {
             transition: "0.3s",
             '&:hover': {
                 backgroundColor: "rgba(0,0,0,0.03)",
+
             },
         }),
         singleValue: (provided, state) => ({
@@ -48,29 +32,24 @@ const SingleSelect = () => {
             color: "#202121",
             fontSize: state.selectProps.myFontSize,
             margin: "0",
-            marginTop: "18px",
         }),
         control: (provided,state) => ({
             ...provided,
+            backgroundColor: "#F9FAFB",
             width: "100%",
-            borderRadius: "10px",
+            borderRadius: "0 10px 10px 0",
             height: "56px",
             paddingLeft: "5px",
             paddingRight: "5px",
             fontWeight: 500,
-            boxShadow: state.isFocused ? "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px #1EAAE2" : "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 0px #1EAAE2",
             transition: "0.3s",
             cursor: "pointer",
+            zIndex: "20",
             '&:hover': {
                 borderColor: state.isFocused ? "#1EAAE2" : "#667085",
             },
             borderColor: state.isFocused ? "#1EAAE2" : "#D0D5DD",
-        }),
-        input: (provided) => ({
-            ...provided,
-            margin: "0",
-            marginTop: "18px",
-            fontWeight: 500,
+            boxShadow: state.isFocused ? "0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 2px rgba(30, 170, 226, 1)" : "",
         }),
         menu: (provided) => ({
             ...provided,
@@ -83,23 +62,19 @@ const SingleSelect = () => {
     };
 
     return (
-
         <Select
-            theme={customTheme}
-            options={optionsSizes}
-            onChange={setSize}
-            noOptionsMessage={() => "No option here, sorry"}
-            placeholder={""}
-            styles={styles}
-            isSearchable
-            isClearable
+            className="dropdown"
+            options={options}
+            defaultValue={options[0]}
             myFontSize="16px"
+            styles={styles}
+            isSearchable={false}
+            isClearable={false}
             components={{
                 IndicatorSeparator: () => null,
-                Control: SingleControl
             }}
         />
     );
 };
 
-export default SingleSelect;
+export default InputDropdownButton;
