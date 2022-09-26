@@ -16,6 +16,8 @@ import Selects from "./pages/inner-pages/Selects";
 import Checkboxes from "./pages/inner-pages/Checkboxes";
 import Pages from "./pages/Pages";
 import Login from "./pages/inner-pages/LoginSP/Login";
+import Toggle from "./pages/inner-pages/ToggleBlock";
+import ToggleBlock from "./pages/inner-pages/ToggleBlock";
 
 
 
@@ -64,6 +66,9 @@ const Routes = () => {
             </Route>
             <Route path="/components/checkboxes">
                 <Checkboxes />
+            </Route>
+            <Route path="/components/toggle">
+                <ToggleBlock />
             </Route>
 
 

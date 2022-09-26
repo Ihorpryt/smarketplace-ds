@@ -1,6 +1,6 @@
 import React from "react";
-import {SComponentCage, SHeader, SRow, SSizeControl} from "../../components/Layout/styles";
-import {SBtnInput, SCard, SFrame, SShadowPopup} from "../../components/System/styles";
+import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
+import {SBtnInput, SCard, SShadowPopup} from "../../components/System/styles";
 
 const Shadows = () => {
     return (
