@@ -4,6 +4,7 @@ import {SHeader, SGrid} from "../components/Layout/styles";
 import styleguideBg from "../assets/img/styleguideBg.jpg";
 import componentsBg from "../assets/img/componentsBg.jpg";
 import resourcesBg from "../assets/img/resourcesBg.jpg";
+import pagesBg from "../assets/img/pagesBg.jpg";
 
 const Home = () => {
 
@@ -31,9 +32,9 @@ const Home = () => {
         },
         {
             id: 4,
-            background: componentsBg,
+            background: pagesBg,
             title: "Pages",
-            description: "Components are reusable building blocks of the UI, crafted with Styleguide.",
+            description: "Set of pages build from components.",
             to: "/pages",
         },
 

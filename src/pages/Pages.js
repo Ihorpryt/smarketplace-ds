@@ -1,6 +1,6 @@
 import React from "react";
 import {SGrid, SHeader} from "../components/Layout/styles"; 
-import buttonBg from "../assets/img/buttonBg.jpg";
+import underDevBg from "../assets/img/underDevelopmentBg.jpg";
 import NavCard from "../components/System/NavCard";
 
 const Resources = () => {
@@ -8,7 +8,7 @@ const Resources = () => {
     const cardArray = [
         {
             id: 1,
-            background: buttonBg,
+            background: underDevBg,
             title: "Login",
             description: "Communicates and triggers user actions when clicked",
             to: "/pages/login",

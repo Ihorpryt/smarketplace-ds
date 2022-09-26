@@ -7,6 +7,7 @@ import alertBg from "../assets/img/alertBg.webp"
 import labelBg from "../assets/img/labelBg.jpg"
 import checkboxBg from "../assets/img/checkboxBg.jpg"
 import selectBg from "../assets/img/selectBg.jpg"
+import toggleBg from "../assets/img/toggleBg.jpg"
 
 const Components = () => {
 
@@ -61,7 +62,7 @@ const Components = () => {
         },
         {
             id: 6,
-            background: labelBg,
+            background: toggleBg,
             title: "Toggle",
             description: "Displays a boolean value.",
             to: "/components/toggle",
