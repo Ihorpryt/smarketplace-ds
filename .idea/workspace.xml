@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/img/tabsBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/tabsBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Tabs/Tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Tabs/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +144,9 @@
       <workItem from="1664059822455" duration="560000" />
       <workItem from="1664158942382" duration="4260000" />
       <workItem from="1664213830934" duration="1182000" />
-      <workItem from="1664271609425" duration="448000" />
+      <workItem from="1664271609425" duration="576000" />
+      <workItem from="1664318956390" duration="1800000" />
+      <workItem from="1664482114629" duration="888000" />
     </task>
     <servers />
   </component>

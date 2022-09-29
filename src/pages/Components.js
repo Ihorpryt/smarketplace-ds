@@ -8,6 +8,7 @@ import labelBg from "../assets/img/labelBg.jpg"
 import checkboxBg from "../assets/img/checkboxBg.jpg"
 import selectBg from "../assets/img/selectBg.jpg"
 import toggleBg from "../assets/img/toggleBg.jpg"
+import tabsBg from "../assets/img/tabsBg.jpg"
 
 const Components = () => {
 
@@ -66,6 +67,14 @@ const Components = () => {
             title: "Toggle",
             description: "Displays a boolean value.",
             to: "/components/toggle",
+            numberOfComponents: 1,
+        },
+        {
+            id: 7,
+            background: tabsBg,
+            title: "Tabs",
+            description: "Organize content by grouping similar information.",
+            to: "/components/tabs",
             numberOfComponents: 1,
         },
 

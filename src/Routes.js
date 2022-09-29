@@ -16,8 +16,8 @@ import Selects from "./pages/inner-pages/Selects";
 import Checkboxes from "./pages/inner-pages/Checkboxes";
 import Pages from "./pages/Pages";
 import Login from "./pages/inner-pages/LoginSP/Login";
-import Toggle from "./pages/inner-pages/ToggleBlock";
 import ToggleBlock from "./pages/inner-pages/ToggleBlock";
+import Tabs from "./pages/inner-pages/Tabs";
 
 
 
@@ -70,6 +70,9 @@ const Routes = () => {
             <Route path="/components/toggle">
                 <ToggleBlock />
             </Route>
+            <Route path="/components/tabs">
+                <Tabs />
+            </Route>
 
 
             <Route exact path="/pages">
@@ -77,6 +80,9 @@ const Routes = () => {
             </Route>
 
             <Route path="/pages/login">
+                <Login />
+            </Route>
+            <Route path="/pages/find-jobs">
                 <Login />
             </Route>
 

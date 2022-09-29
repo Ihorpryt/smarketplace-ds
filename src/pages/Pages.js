@@ -14,6 +14,14 @@ const Resources = () => {
             to: "/pages/login",
             numberOfComponents: 0,
         },
+        {
+            id: 2,
+            background: underDevBg,
+            title: "Find Jobs",
+            description: "Communicates and triggers user actions when clicked",
+            to: "/pages/find-jobs",
+            numberOfComponents: 0,
+        },
 
     ];
 
