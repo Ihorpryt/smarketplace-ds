@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/sm-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Menu/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/BellIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/CalendarIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/DocumentsIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/JobsIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/MessagesIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Tabs/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Tabs/Tab-block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/HomeIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,7 @@
       <workItem from="1664630369039" duration="1504000" />
       <workItem from="1664740680772" duration="3350000" />
       <workItem from="1664838487721" duration="209000" />
-      <workItem from="1665071756486" duration="2631000" />
+      <workItem from="1665071756486" duration="11942000" />
     </task>
     <servers />
   </component>

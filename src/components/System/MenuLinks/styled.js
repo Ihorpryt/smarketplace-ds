@@ -4,7 +4,7 @@ export const SMenuItem = styled.a`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap:12px;
+  gap:8px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -13,9 +13,12 @@ export const SMenuItem = styled.a`
   color: #344054;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 0 12px;
   text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: 0.3s;
   &:hover {
-    color: #1EAAE2;
+    color: #202121;
+    background-color: rgb(240 243 249);
   }
 `;

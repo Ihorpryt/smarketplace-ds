@@ -1,13 +1,15 @@
 import React from "react";
 import {SMenuItem} from "./styled";
-import Home from "../../../assets/icons/Home";
 
 
 
-const MenuLinks = ({title}) => {
+const MenuLinks = ({title, isActive}) => {
     return (
-        <SMenuItem href="#">
-            <Home />
+        <SMenuItem href="#" style={{
+            color: isActive ? '#202121': '',
+            backgroundColor: isActive ? '#F0F3F9': '',
+        }}>
+            {/*{icon}*/}
             {title.toUpperCase()}
         </SMenuItem>
     );

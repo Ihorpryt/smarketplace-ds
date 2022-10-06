@@ -1,8 +1,15 @@
 import React from "react";
-import {Avatar, Header, Nav, SLogo, SMenuLinks} from "./styled";
+import {Avatar, AvatarBorder, Header, IconHover, Nav, RightMenuBlock, SLogo, SMenuLinks} from "./styled";
 import smLogoSVG from "../../../assets/sm-logo.svg";
 import MenuLinks from "../MenuLinks/MenuLinks";
 import User from "../../../assets/img/user.png"
+import HomeIcon from "../../../assets/icons/HomeIcon";
+import Search from "../../../assets/icons/Search";
+import JobsIcon from "../../../assets/icons/JobsIcon";
+import CalendarIcon from "../../../assets/icons/CalendarIcon";
+import MessagesIcon from "../../../assets/icons/MessagesIcon";
+import DocumentsIcon from "../../../assets/icons/DocumentsIcon";
+import BellIcon from "../../../assets/icons/BellIcon";
 
 
 const Menu = () => {
@@ -13,15 +20,22 @@ const Menu = () => {
                     <img src={smLogoSVG} alt="logo" />
                 </SLogo>
                 <SMenuLinks>
-                    <MenuLinks title="Home" />
-                    <MenuLinks title="Find jobs" />
-                    <MenuLinks title="My jobs" />
-                    <MenuLinks title="Calendar" />
-                    <MenuLinks title="Messages" />
-                    <MenuLinks title="Documents" />
+                    <MenuLinks title="Home" icon={<HomeIcon />} />
+                    <MenuLinks title="Find jobs" isActive={true} />
+                    {/*<MenuLinks title="My jobs" icon={<JobsIcon />} />*/}
+                    <MenuLinks title="Calendar" icon={<CalendarIcon />} />
+                    <MenuLinks title="Messages" icon={<MessagesIcon />} />
+                    <MenuLinks title="Documents" icon={<DocumentsIcon />} />
                 </SMenuLinks>
             </Nav>
-            <Avatar src={User} className="user" alt="Marketplace Logo"/>
+            <RightMenuBlock>
+                <IconHover>
+                    <BellIcon />
+                </IconHover>
+                <AvatarBorder>
+                    <Avatar src={User} className="user" alt="Marketplace Logo"/>
+                </AvatarBorder>
+            </RightMenuBlock>
         </Header>
     );
 

@@ -17,7 +17,7 @@ const Resources = () => {
         {
             id: 2,
             background: underDevBg,
-            title: "Find Jobs",
+            title: "Find JobsIcon",
             description: "Communicates and triggers user actions when clicked",
             to: "/pages/find-jobs",
             numberOfComponents: 0,
