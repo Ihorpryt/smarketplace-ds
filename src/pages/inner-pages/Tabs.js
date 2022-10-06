@@ -1,5 +1,6 @@
 import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
+import TabBlock from "../../components/System/Tabs/Tab-block";
 
 const Tabs = () => {
     return (
@@ -12,7 +13,7 @@ const Tabs = () => {
 
             <SComponentCage>
                 <SSizeControl>
-
+                    <TabBlock />
                 </SSizeControl>
             </SComponentCage>
 

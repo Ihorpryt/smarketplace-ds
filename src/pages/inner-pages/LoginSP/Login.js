@@ -17,7 +17,7 @@ import {
 import Input from "../../../components/System/Input/Input";
 import Button from "../../../components/System/Button/Button";
 import Checkbox from "../../../components/System/Checkbox/Checkbox";
-import {logoSVG} from "../../../assets";
+import {logoSVG} from "../../../assets/";
 import {SLogo} from "../../../components/Sidebar/styles";
 import video1 from "../../../assets/comp.mp4";
 import grad from "../../../assets/gradientcover.png";

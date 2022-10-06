@@ -18,6 +18,7 @@ import Pages from "./pages/Pages";
 import Login from "./pages/inner-pages/LoginSP/Login";
 import ToggleBlock from "./pages/inner-pages/ToggleBlock";
 import Tabs from "./pages/inner-pages/Tabs";
+import FindJobs from "./pages/inner-pages/FindJobsSP/FindJobs";
 
 
 
@@ -83,7 +84,7 @@ const Routes = () => {
                 <Login />
             </Route>
             <Route path="/pages/find-jobs">
-                <Login />
+                <FindJobs />
             </Route>
 
 

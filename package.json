@@ -7,6 +7,7 @@
         "@testing-library/react": "^12.1.2",
         "@testing-library/user-event": "^13.5.0",
         "html-to-image": "^1.10.8",
+        "imba-component": "file:public/imba-component",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-helmet": "^6.1.0",
@@ -44,6 +45,8 @@
         ]
     },
     "devDependencies": {
-        "gh-pages": "^4.0.0"
+        "gh-pages": "^4.0.0",
+        "imba": "^2.0.0-alpha.222",
+        "vite-plugin-imba": "^0.8.2"
     }
 }

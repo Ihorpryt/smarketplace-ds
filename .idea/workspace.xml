@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/tabsBg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/tabsBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Tabs/Tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Tabs/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/sm-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Menu/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Tabs/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Tabs/Tab-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/LoginSP/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +68,11 @@
       <recent name="$PROJECT_DIR$/src/components/System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/imba-component/src" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages/LoginSP" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/pages/inner-pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,6 +154,16 @@
       <workItem from="1664271609425" duration="576000" />
       <workItem from="1664318956390" duration="1800000" />
       <workItem from="1664482114629" duration="888000" />
+      <workItem from="1664486207334" duration="122000" />
+      <workItem from="1664547916055" duration="390000" />
+      <workItem from="1664624602107" duration="286000" />
+      <workItem from="1664625846796" duration="966000" />
+      <workItem from="1664627345107" duration="41000" />
+      <workItem from="1664627388649" duration="2571000" />
+      <workItem from="1664630369039" duration="1504000" />
+      <workItem from="1664740680772" duration="3350000" />
+      <workItem from="1664838487721" duration="209000" />
+      <workItem from="1665071756486" duration="2631000" />
     </task>
     <servers />
   </component>
