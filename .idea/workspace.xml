@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/BellIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/CalendarIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/DocumentsIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/JobsIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/MessagesIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/CircleJobDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Rainbow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Filter/Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Filter/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/HomeIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/MenuLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/MenuLinks/styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +60,11 @@
       <recent name="$PROJECT_DIR$/src/components/System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/System/Filter" />
       <recent name="$PROJECT_DIR$/public/imba-component/src" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages/LoginSP" />
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -160,7 +155,8 @@
       <workItem from="1664630369039" duration="1504000" />
       <workItem from="1664740680772" duration="3350000" />
       <workItem from="1664838487721" duration="209000" />
-      <workItem from="1665071756486" duration="11942000" />
+      <workItem from="1665071756486" duration="12324000" />
+      <workItem from="1665253295881" duration="4635000" />
     </task>
     <servers />
   </component>
