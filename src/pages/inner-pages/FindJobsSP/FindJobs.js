@@ -16,6 +16,7 @@ import tabsBg from "../../../assets/img/tabsBg.jpg";
 import NavCard from "../../../components/System/NavCard";
 import JobCard from "../../../components/System/JobCard/JobCard";
 import Rainbow from "../../../assets/icons/Rainbow";
+import {SDecorationBarBlue} from "../../../components/System/JobCard/styles";
 
 
 const FindJobs = () => {
@@ -25,14 +26,17 @@ const FindJobs = () => {
         {
             id: 1,
             title: "First Officer (PIC)",
+            bar: <SDecorationBarBlue/>,
         },
         {
             id: 2,
             title: "Cabin Attendant",
+            bar: <SDecorationBarBlue/>,
         },
         {
             id: 3,
             title: "Dispatch",
+            bar: <SDecorationBarBlue/>,
         },
 
     ];

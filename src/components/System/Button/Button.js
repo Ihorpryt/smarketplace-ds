@@ -1,4 +1,4 @@
-import React from "react";
+    import React from "react";
 import {PrimaryButton, SecondaryButton} from "./styled";
 
 const Button = ({text, variant, onClick, icon, isDisabled}) => {

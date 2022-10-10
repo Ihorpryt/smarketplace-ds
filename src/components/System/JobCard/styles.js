@@ -88,7 +88,7 @@ export const SDateInfo = styled.div`
   
 `;
 
-export const SDecorationBar = styled.div`
+export const SDecorationBarBlue = styled.div`
   background: linear-gradient(90deg, #1B3A6B 0%, #446EBD 100%);
   height: 4px;
   position: absolute;
@@ -99,7 +99,6 @@ export const SDecorationBar = styled.div`
   margin-left: 24px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  z-index: 50;
 `;
 export const SJobCardBottomPart = styled.div`
   display: flex;

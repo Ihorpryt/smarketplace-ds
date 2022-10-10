@@ -4,7 +4,7 @@ export const Header = styled.header`
   height: 64px;
   background-color: white;
   width: 100vw;
-  position: fixed;
+  //position: fixed;
   top: 0;
   left: 0;
   display: flex;

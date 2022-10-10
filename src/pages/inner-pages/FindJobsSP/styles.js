@@ -4,7 +4,7 @@ export const SBackButton = styled.button`
     z-index: 100;
     position: absolute;
     right: 24px;
-    top: 24px;
+    top: 20px;
     cursor: pointer;
 `;
 export const SLogo = styled.a`
@@ -15,7 +15,6 @@ export const SLogo = styled.a`
 export const SFindJobsContent = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 64px;
   padding-top: 24px;
   padding-left: 120px;
   padding-right: 120px;

@@ -1,22 +1,22 @@
 import React from "react";
 import {
     SDateInfo,
-    SDecorationBar,
+    SDecorationBarBlue,
     SJobCard,
     SJobCardBottomPart,
     SJobCardDetails,
     SJobCardTopPart,
     SSmallInfoBlock
 } from "./styles";
-import CircleJobDetails from "../../../assets/icons/CircleJobDetails";
 import CompanyLogo from "../../../assets/company-logo/jet-aviation.svg";
 import TextTruncate from 'react-text-truncate';
 
-const JobCard = ({title}) => {
+const JobCard = ({title, bar}) => {
+
     return (
         <SJobCard>
 
-            <SDecorationBar />
+            {bar}
 
             <SJobCardTopPart>
                 <SDateInfo>

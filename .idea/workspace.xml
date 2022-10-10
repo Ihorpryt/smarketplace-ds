@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/company-logo/jet-aviation.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +158,7 @@
       <workItem from="1664838487721" duration="209000" />
       <workItem from="1665071756486" duration="12324000" />
       <workItem from="1665253295881" duration="5370000" />
-      <workItem from="1665338108979" duration="7566000" />
+      <workItem from="1665338108979" duration="9564000" />
     </task>
     <servers />
   </component>
