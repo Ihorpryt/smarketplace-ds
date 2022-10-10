@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/CircleJobDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Rainbow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Filter/Filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/Filter/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/company-logo/jet-aviation.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2D5jF7qsCgxrNFCNNbKk5R0B0Qj" />
   <component name="ProjectLevelVcsManager">
@@ -156,7 +157,8 @@
       <workItem from="1664740680772" duration="3350000" />
       <workItem from="1664838487721" duration="209000" />
       <workItem from="1665071756486" duration="12324000" />
-      <workItem from="1665253295881" duration="4635000" />
+      <workItem from="1665253295881" duration="5370000" />
+      <workItem from="1665338108979" duration="7566000" />
     </task>
     <servers />
   </component>
@@ -176,5 +178,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/System/JobCard/styles.js</url>
+          <line>76</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
