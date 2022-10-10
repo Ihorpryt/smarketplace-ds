@@ -41,6 +41,7 @@ const FindJobs = () => {
 
     ];
 
+
     return (
         <>
             <SBackButton onClick={() => history.push("/pages")}>Back</SBackButton>

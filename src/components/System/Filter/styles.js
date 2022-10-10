@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const SFilterBlock = styled.div`
   min-width: 250px;
+  max-width: 250px;
 `;
 export const SFilterTitle = styled.div`
   display: flex;
@@ -9,6 +10,7 @@ export const SFilterTitle = styled.div`
   justify-content: space-between;
   align-items: center;
   height: 38px;
+  margin-bottom: 24px;
   
   h3 {
     font-family: 'Inter';

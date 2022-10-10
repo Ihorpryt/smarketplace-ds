@@ -11,7 +11,7 @@ export const SMenuItem = styled.a`
   font-size: 12px;
   line-height: 20px;
   color: #344054;
-  letter-spacing: 1px;
+  
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 16px;
