@@ -127,7 +127,28 @@ const cloudAnimation = keyframes`
  0% { opacity: 0; }
  100% { opacity: 1; }
 `
-
+export const SBlueGlow = styled.div`
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 855px;
+  height: 346px;
+  border-radius: 100%;
+  filter: blur(314px) saturate(2.2);
+  background-color: #0373B7;
+  z-index: 9;
+`;
+export const SGreenGlow = styled.div`
+  position: absolute;
+  bottom: 50px;
+  right: -700px;
+  width: 873px;
+  height: 652px;
+  border-radius: 100%;
+  filter: blur(314px) saturate(2);
+  background-color: #00FFC2;
+  z-index: 9;
+`;
 export const SGrad = styled.img`
   width: 100%;
   position: absolute;

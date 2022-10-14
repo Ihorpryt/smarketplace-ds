@@ -2,9 +2,9 @@ import React from "react";
 import {useHistory} from "react-router-dom";
 import {
     SBackButton,
-    SBlock, SCheckLine,
+    SBlock, SBlueGlow, SCheckLine,
     SFooter,
-    SGrad,
+    SGrad, SGreenGlow,
     SLeft, SLines,
     SRight,
     STextRight,
@@ -54,6 +54,8 @@ const GetStarted = () => {
 
             <SRight>
                 <SBackButton onClick={() => history.push("/pages")}>Back</SBackButton>
+                <SBlueGlow />
+                <SGreenGlow />
                 <SGrad src={grad} alt="" />
                 <SVideo src={video1} width="100%" height="100%"  autoPlay="true" loop="true" />
             </SRight>
