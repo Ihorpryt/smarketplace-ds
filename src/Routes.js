@@ -19,6 +19,7 @@ import Login from "./pages/inner-pages/LoginSP/Login";
 import ToggleBlock from "./pages/inner-pages/ToggleBlock";
 import Tabs from "./pages/inner-pages/Tabs";
 import FindJobs from "./pages/inner-pages/FindJobsSP/FindJobs";
+import GetStarted from "./pages/inner-pages/GetStartedSP/GetStarted";
 
 
 
@@ -85,6 +86,9 @@ const Routes = () => {
             </Route>
             <Route path="/pages/find-jobs">
                 <FindJobs />
+            </Route>
+            <Route path="/pages/get-started">
+                <GetStarted />
             </Route>
 
 

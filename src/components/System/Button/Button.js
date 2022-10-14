@@ -1,12 +1,18 @@
     import React from "react";
 import {PrimaryButton, SecondaryButton} from "./styled";
+import ArrowRight from "../../../assets/icons/ArrowRight";
 
-const Button = ({text, variant, onClick, icon, isDisabled}) => {
+const Button = ({text, variant, onClick, icon, isDisabled, trailingIcon}) => {
 
     switch(variant) {
         case variant = 'primary':
             return (
-                <PrimaryButton onClick={onClick} isDisabled={isDisabled}>{icon}{text}</PrimaryButton>
+                <PrimaryButton onClick={onClick} isDisabled={isDisabled}>
+                    {icon}{text}
+                    {trailingIcon &&
+                        <ArrowRight />
+                    }
+                </PrimaryButton>
             );
         case variant = 'secondary':
             return (

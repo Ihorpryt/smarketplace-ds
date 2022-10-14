@@ -17,7 +17,7 @@ const App = () => {
     const location = useLocation();
     console.log(location.pathname)
 
-    const singlePageArray = ["/pages/login", "/pages/find-jobs", "/pages/else"]
+    const singlePageArray = ["/pages/login", "/pages/find-jobs", "/pages/else", "/pages/get-started"]
 
     const test = matchPath(location.pathname, {
         path: singlePageArray,

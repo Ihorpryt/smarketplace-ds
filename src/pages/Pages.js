@@ -22,6 +22,14 @@ const Resources = () => {
             to: "/pages/find-jobs",
             numberOfComponents: 0,
         },
+        {
+            id: 3,
+            background: underDevBg,
+            title: "Get Started",
+            description: "Onboarding",
+            to: "/pages/get-started",
+            numberOfComponents: 0,
+        },
 
     ];
 
