@@ -13,7 +13,7 @@ export const PrimaryButton = styled.button `
   line-height: 24px;
   border: none;
   font-weight: 600;
-  padding: 12px 24px;
+  padding: 10px 24px;
   //min-width: 300px;
   transition: 0.25s ease all;
   cursor: pointer;
@@ -43,7 +43,7 @@ export const SecondaryButton = styled.button`
   line-height: 24px;
   border: 1px solid #D0D5DD;
   font-weight: 600;
-  padding: 12px 24px;
+  padding: 10px 24px;
   //width: 300px;
   transition: 0.25s ease all;
   cursor: pointer;
