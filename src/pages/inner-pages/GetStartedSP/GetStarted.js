@@ -56,9 +56,8 @@ const GetStarted = () => {
 
             <SRight>
                 <SBackButton onClick={() => history.push("/pages")}>Back</SBackButton>
-                <SGrad src={grad} alt=""/>
+                <SGrad src={grad} alt="" loading="eager"/>
                 <SVideo src={video1} width="100%" height="100%"  autoPlay="true" loop="true" />
-
             </SRight>
         </SWrapper>
     );
