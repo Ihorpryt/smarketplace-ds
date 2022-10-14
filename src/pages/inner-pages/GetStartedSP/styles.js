@@ -129,7 +129,7 @@ const cloudAnimation = keyframes`
 `
 export const SBlueGlow = styled.div`
   position: absolute;
-  bottom: 0px;
+  bottom: -100px;
   right: 0px;
   width: 855px;
   height: 346px;
@@ -140,8 +140,8 @@ export const SBlueGlow = styled.div`
 `;
 export const SGreenGlow = styled.div`
   position: absolute;
-  bottom: 50px;
-  right: -700px;
+  bottom: 0px;
+  right: -800px;
   width: 873px;
   height: 652px;
   border-radius: 100%;
