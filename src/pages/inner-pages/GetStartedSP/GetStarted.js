@@ -11,9 +11,7 @@ import {
     SVideo,
     SWrapper
 } from "./styles";
-import Input from "../../../components/System/Input/Input";
 import Button from "../../../components/System/Button/Button";
-import Checkbox from "../../../components/System/Checkbox/Checkbox";
 import {logoSVG} from "../../../assets/";
 import {SLogo} from "../../../components/Sidebar/styles";
 import video1 from "../../../assets/comp.mp4";
@@ -56,7 +54,7 @@ const GetStarted = () => {
 
             <SRight>
                 <SBackButton onClick={() => history.push("/pages")}>Back</SBackButton>
-                <SGrad src={grad} alt="" loading="eager"/>
+                <SGrad src={grad} alt="" />
                 <SVideo src={video1} width="100%" height="100%"  autoPlay="true" loop="true" />
             </SRight>
         </SWrapper>
