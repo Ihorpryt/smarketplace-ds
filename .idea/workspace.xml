@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/location.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/Button/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Button/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +167,8 @@
       <workItem from="1665597285805" duration="763000" />
       <workItem from="1665686573045" duration="10354000" />
       <workItem from="1665741460367" duration="564000" />
-      <workItem from="1665774784750" duration="72000" />
+      <workItem from="1665774784750" duration="731000" />
+      <workItem from="1665956894434" duration="623000" />
     </task>
     <servers />
   </component>
@@ -188,7 +194,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/System/JobCard/styles.js</url>
-          <line>77</line>
+          <line>84</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

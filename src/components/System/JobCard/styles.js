@@ -45,7 +45,7 @@ export const SJobCardDetails = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
   padding: 0px;
   list-style-type: none;
   margin-top: 24px;
@@ -57,6 +57,13 @@ export const SJobCardDetails = styled.ul`
   font-size: 14px;
   line-height: 20px;
   color: #202121;
+  
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:6px;
+  }
   
   span {
     font-weight: 400;

@@ -10,6 +10,10 @@ import {
 } from "./styles";
 import CompanyLogo from "../../../assets/company-logo/jet-aviation.svg";
 import TextTruncate from 'react-text-truncate';
+import dollar from "../../../assets/icons/dollar.svg";
+import location from "../../../assets/icons/location.svg";
+import clock from "../../../assets/icons/clock.svg";
+import bag from "../../../assets/icons/bag.svg";
 
 const JobCard = ({title, bar}) => {
 
@@ -26,13 +30,22 @@ const JobCard = ({title, bar}) => {
 
                 <h2>{title}</h2>
                 <SJobCardDetails>
-                    <li>$800 — 1.2k per day</li>
-                    <li><span>/</span></li>
-                    <li>KPDX — Portland International Airports</li>
-                    <li><span>/</span></li>
-                    <li>5 years of experience</li>
-                    <li><span>/</span></li>
-                    <li>Full-time</li>
+                    <li>
+                        <img src={dollar}/>
+                        $800 — 1.2k per day
+                    </li>
+                    <li>
+                        <img src={location}/>
+                        KPDX — Portland International Airports
+                    </li>
+                    <li>
+                        <img src={clock}/>
+                        5 years of experience
+                    </li>
+                    <li>
+                        <img src={bag}/>
+                        Full-time
+                    </li>
                 </SJobCardDetails>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud aliquip ex ea commodo consequat.</p>
             </SJobCardTopPart>
