@@ -4,7 +4,7 @@ import smLogoSVG from "../../../assets/sm-logo.svg";
 import MenuLinks from "../MenuLinks/MenuLinks";
 import User from "../../../assets/img/user.png"
 import HomeIcon from "../../../assets/icons/HomeIcon";
-import Search from "../../../assets/icons/Search";
+import SearchIcon from "../../../assets/icons/SearchIcon";
 import JobsIcon from "../../../assets/icons/JobsIcon";
 import CalendarIcon from "../../../assets/icons/CalendarIcon";
 import MessagesIcon from "../../../assets/icons/MessagesIcon";

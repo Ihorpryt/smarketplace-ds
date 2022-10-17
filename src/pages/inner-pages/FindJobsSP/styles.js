@@ -29,6 +29,7 @@ export const SDetailsAboveFilter = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap:24px;
   height: 38px;
   margin-bottom: 24px;
   
@@ -47,4 +48,5 @@ export const SJobsFound = styled.div`
   flex-direction: row;
   align-items: center;
   gap: 8px;
+  white-space: nowrap;
 `;

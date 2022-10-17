@@ -2,6 +2,7 @@ import React from "react";
 import {SComponentCage, SHeader, SSizeControl} from "../../components/Layout/styles";
 import Input from "../../components/System/Input/Input";
 import InputGroup from "../../components/System/InputGroup/InputGroup";
+import Search from "../../components/System/Search/Search";
 
 const Inputs = () => {
     return (
@@ -21,6 +22,12 @@ const Inputs = () => {
             <SComponentCage>
                 <SSizeControl>
                     <InputGroup label="Amount" />
+                </SSizeControl>
+            </SComponentCage>
+
+            <SComponentCage>
+                <SSizeControl>
+                    <Search label="Search" />
                 </SSizeControl>
             </SComponentCage>
 

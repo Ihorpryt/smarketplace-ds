@@ -1,11 +1,24 @@
 import React from "react";
-import Select, { components } from "react-select";
+import {SCSearch, SInput, SInputField} from "./styles";
+import SearchIcon from "../../../assets/icons/SearchIcon";
 
-const Search = () => {
+const Search = ({label, name, value, onChange}) => {
     return (
-        <Select
-            placeholder={"Search"}
-        />
+        <SInput>
+            <SCSearch>
+                <SearchIcon />
+            </SCSearch>
+
+            <SInputField
+                type="text"
+                name={name}
+                placeholder="&nbsp;"
+                value={value}
+                onChange={onChange}
+            />
+            <label htmlFor={name}>{label}</label>
+
+        </SInput>
     );
 };
 

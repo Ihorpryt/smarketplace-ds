@@ -5,18 +5,13 @@ import {
 } from "./styles";
 import Menu from "../../../components/System/Menu/Menu";
 import Filter from "../../../components/System/Filter/Filter";
-import buttonBg from "../../../assets/img/buttonBg.jpg";
-import inputBg from "../../../assets/img/inputBg.jpg";
-import alertBg from "../../../assets/img/alertBg.webp";
-import selectBg from "../../../assets/img/selectBg.jpg";
-import checkboxBg from "../../../assets/img/checkboxBg.jpg";
-import labelBg from "../../../assets/img/labelBg.jpg";
-import toggleBg from "../../../assets/img/toggleBg.jpg";
-import tabsBg from "../../../assets/img/tabsBg.jpg";
-import NavCard from "../../../components/System/NavCard";
 import JobCard from "../../../components/System/JobCard/JobCard";
 import Rainbow from "../../../assets/icons/Rainbow";
 import {SDecorationBarBlue} from "../../../components/System/JobCard/styles";
+import Input from "../../../components/System/Input/Input";
+import SearchIcon from "../../../components/System/Search/Search";
+import SingleSelect44 from "../../../components/System/Select/SingleSelect44";
+import {SingleControl44} from "../../../components/System/Select/SingleControl44";
 
 
 const FindJobs = () => {
@@ -54,6 +49,8 @@ const FindJobs = () => {
                             <Rainbow />
                             <p>120  jobs found</p>
                         </SJobsFound>
+                        <SearchIcon label="Search" />
+                        <SingleSelect44 />
                     </SDetailsAboveFilter>
 
                     {cardArray.map((card) => (

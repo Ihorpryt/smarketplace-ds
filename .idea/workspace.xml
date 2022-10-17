@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa1127b-40dc-46c6-827f-8042b9cdaedb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/dollar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/SearchIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Search/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Select/SingleControl44.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/System/Select/SingleSelect44.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/JobCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/JobCard/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/System/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/System/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/FindJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/FindJobsSP/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/inner-pages/Inputs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tarikelshaar/Documents/react/ds/src/pages/inner-pages/GetStartedSP&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/tarikelshaar/Documents/react/ds/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tarikelshaar/Documents/react/ds/src/components/System/Select",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/tarikelshaar/Documents/react/ds/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/System/Select" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages/GetStartedSP" />
       <recent name="$PROJECT_DIR$/src/pages/inner-pages/LoginSP" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/System/Select" />
       <recent name="$PROJECT_DIR$/src/components/System" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -168,7 +173,9 @@
       <workItem from="1665686573045" duration="10354000" />
       <workItem from="1665741460367" duration="564000" />
       <workItem from="1665774784750" duration="731000" />
-      <workItem from="1665956894434" duration="623000" />
+      <workItem from="1665956894434" duration="910000" />
+      <workItem from="1666016734590" duration="171000" />
+      <workItem from="1666027966180" duration="10535000" />
     </task>
     <servers />
   </component>

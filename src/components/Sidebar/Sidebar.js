@@ -73,7 +73,7 @@ const Sidebar = () => {
             {/*    </SSearchIcon>*/}
             {/*    <input*/}
             {/*        ref={searchRef}*/}
-            {/*        placeholder="Search"*/}
+            {/*        placeholder="SearchIcon"*/}
             {/*        style={!sidebarOpen ? { width: 0, padding: 0 } : {}}*/}
             {/*    />*/}
             {/*</SSearch>*/}
